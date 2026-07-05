@@ -7,6 +7,7 @@ export interface BlogPost {
   category: string;
   content: string;
   image?: string;
+  pdf?: string;
 }
 
 export function getAllPosts(): BlogPost[] {

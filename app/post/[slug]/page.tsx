@@ -35,13 +35,28 @@ export default function PostPage({ params }: Props) {
 
       {post.image && (
         <div className="max-w-sm mx-auto mt-8 px-4">
-          <Image
-            src={post.image}
-            alt={post.title}
-            width={600}
-            height={849}
-            className="w-full h-auto shadow-md"
-          />
+          {post.pdf ? (
+            <a href={post.pdf} target="_blank" rel="noopener noreferrer" className="block group">
+              <Image
+                src={post.image}
+                alt={post.title}
+                width={600}
+                height={849}
+                className="w-full h-auto shadow-md group-hover:opacity-90 transition-opacity"
+              />
+              <p className="text-center text-xs text-brown mt-2 border-b border-brown inline-block mx-auto">
+                チラシをPDFで見る →
+              </p>
+            </a>
+          ) : (
+            <Image
+              src={post.image}
+              alt={post.title}
+              width={600}
+              height={849}
+              className="w-full h-auto shadow-md"
+            />
+          )}
         </div>
       )}
 
