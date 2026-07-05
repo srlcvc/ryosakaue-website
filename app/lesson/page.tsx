@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -30,7 +31,14 @@ export default function LessonPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-warm-text text-cream py-20 text-center">
+      <section className="bg-warm-text text-cream py-16 text-center">
+        <Image
+          src="/images/logo-school.png"
+          alt="Sakaue Cello School"
+          width={180}
+          height={180}
+          className="mx-auto mb-8 rounded-sm"
+        />
         <p className="section-sub text-cream/60">Cello Lesson</p>
         <h1 className="font-serif text-4xl md:text-5xl tracking-wide">チェロ教室</h1>
         <p className="mt-4 text-cream/80">名古屋・星ヶ丘｜初心者から丁寧に</p>

@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 
 const navLinks = [
@@ -19,15 +18,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-warm-border shadow-sm">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between h-16">
-        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <Image
-            src="/images/logo-school.png"
-            alt="Sakaue Cello School"
-            width={44}
-            height={44}
-            className="rounded-sm"
-          />
+        <Link href="/" className="hover:text-brown transition-colors flex flex-col leading-tight">
           <span className="font-serif text-xl text-warm-text tracking-widest">坂上 諒</span>
+          <span className="text-xs font-sans tracking-widest text-muted">SAKAUE CELLO SCHOOL</span>
         </Link>
 
         {/* Desktop nav */}
