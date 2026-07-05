@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { getAllPosts, formatDate } from '@/lib/blog';
 
@@ -26,15 +27,27 @@ export default function BlogPage() {
           ))}
         </div>
 
-        <div className="divide-y divide-warm-border">
+        <div className="grid md:grid-cols-2 gap-8">
           {posts.map((post) => (
-            <article key={post.slug} className="py-6 group">
-              <Link href={`/post/${encodeURIComponent(post.slug)}`} className="flex gap-6 items-start hover:opacity-80 transition-opacity">
-                <time className="text-xs text-muted whitespace-nowrap pt-1 w-28 shrink-0">{formatDate(post.date)}</time>
-                <div>
-                  <span className="text-xs text-brown border border-brown px-2 py-0.5 mr-3">{post.category}</span>
-                  <span className="font-sans text-warm-text group-hover:text-brown transition-colors">{post.title}</span>
-                  <p className="text-xs text-muted mt-2 line-clamp-2">{post.content.slice(0, 100)}...</p>
+            <article key={post.slug} className="group border border-warm-border hover:shadow-md transition-shadow">
+              <Link href={`/post/${encodeURIComponent(post.slug)}`}>
+                {post.image && (
+                  <div className="relative h-52 overflow-hidden">
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                )}
+                <div className="p-5">
+                  <div className="flex items-center gap-3 mb-2">
+                    <time className="text-xs text-muted">{formatDate(post.date)}</time>
+                    <span className="text-xs text-brown border border-brown px-2 py-0.5">{post.category}</span>
+                  </div>
+                  <h2 className="font-serif text-lg text-warm-text group-hover:text-brown transition-colors mb-2">{post.title}</h2>
+                  <p className="text-xs text-muted leading-relaxed line-clamp-3">{post.content.split('\n')[0]}</p>
                 </div>
               </Link>
             </article>

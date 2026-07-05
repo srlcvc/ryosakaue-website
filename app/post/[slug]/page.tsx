@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllPosts, getPostBySlug, formatDate } from '@/lib/blog';
@@ -32,10 +33,21 @@ export default function PostPage({ params }: Props) {
         <p className="mt-4 text-sm text-cream/70">{formatDate(post.date)}</p>
       </section>
 
-      <article className="max-w-2xl mx-auto px-4 py-16">
+      {post.image && (
+        <div className="relative h-64 md:h-96 max-w-3xl mx-auto mt-8 px-4">
+          <Image
+            src={post.image}
+            alt={post.title}
+            fill
+            className="object-cover"
+          />
+        </div>
+      )}
+
+      <article className="max-w-2xl mx-auto px-4 py-12">
         <div className="prose prose-sm max-w-none text-muted leading-relaxed">
           {post.content.split('\n\n').map((para, i) => (
-            <p key={i} className="mb-4">{para}</p>
+            <p key={i} className="mb-4 whitespace-pre-line">{para}</p>
           ))}
         </div>
 
