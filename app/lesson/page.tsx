@@ -116,8 +116,7 @@ export default function LessonPage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <p className="section-sub">Access</p>
           <h2 className="section-title mb-6">アクセス</h2>
-          <p className="text-muted">〒名古屋市千種区</p>
-          <p className="text-lg font-bold text-brown mt-2">地下鉄東山線・星ヶ丘駅から徒歩2分</p>
+          <p className="text-lg font-bold text-brown">地下鉄東山線・星ヶ丘駅から徒歩2分</p>
           <p className="text-sm text-muted mt-4">※ 詳しい住所はお問い合わせ後にお伝えします。</p>
         </div>
       </section>
