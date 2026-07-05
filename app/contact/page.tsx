@@ -16,21 +16,6 @@ export default function ContactPage() {
 
       <section className="max-w-3xl mx-auto px-4 py-16">
 
-        {/* LINE */}
-        <div className="bg-olive/10 border border-olive/30 p-8 text-center mb-16">
-          <h2 className="font-serif text-2xl mb-3">LINEでお気軽に</h2>
-          <p className="text-sm text-muted mb-6">チケット予約のご相談は公式LINEからどうぞ。</p>
-          <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/images/line-tomodachi-button.png"
-              alt="LINE友だち追加"
-              width={200}
-              height={60}
-              className="mx-auto hover:opacity-90 transition-opacity"
-            />
-          </a>
-        </div>
-
         {/* Contact form */}
         <div className="mb-16">
           <h2 className="font-serif text-2xl mb-2">お問い合わせフォーム</h2>
@@ -127,6 +112,23 @@ export default function ContactPage() {
           <p className="text-xs text-muted mt-4">
             ご予約確認メールをお送りします。数日以内にご連絡がない場合はお手数ですがご連絡ください。
           </p>
+        </div>
+
+        {/* LINE info */}
+        <div className="border-t border-warm-border pt-10 mt-4 flex flex-col sm:flex-row items-center gap-6">
+          <div className="flex-1">
+            <p className="text-sm text-warm-text font-bold mb-1">公式LINE</p>
+            <p className="text-sm text-muted">演奏会情報を配信しています。チケット予約もLINEから承ります。</p>
+          </div>
+          <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="shrink-0">
+            <Image
+              src="/images/line-tomodachi-button.png"
+              alt="LINE友だち追加"
+              width={160}
+              height={48}
+              className="hover:opacity-90 transition-opacity"
+            />
+          </a>
         </div>
       </section>
     </>
