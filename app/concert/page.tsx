@@ -52,45 +52,36 @@ export default function ConcertPage() {
               </div>
             )}
             {c.available && (
-              <div className="flex flex-wrap gap-4">
-                <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/images/line-tomodachi-button.png"
-                    alt="LINEでチケット予約"
-                    width={160}
-                    height={48}
-                    className="hover:opacity-90 transition-opacity"
-                  />
-                </a>
-                <Link href="/contact#reservation" className="btn-outline">
-                  予約フォームへ
+              <div>
+                <Link href="/contact#reservation" className="btn-primary inline-block mb-4">
+                  チケット予約フォームへ
                 </Link>
+                <p className="text-sm text-muted">
+                  公式LINEからもご予約いただけます。&nbsp;
+                  <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="text-brown border-b border-brown hover:text-brown-dark transition-colors">
+                    LINEで予約する →
+                  </a>
+                </p>
               </div>
             )}
           </div>
         ))}
       </section>
 
-      {/* LINE CTA */}
+      {/* Reservation CTA */}
       <section className="bg-olive/10 border-t border-b border-olive/20 py-16 text-center">
         <h2 className="section-title mb-4">チケット予約・お問い合わせ</h2>
-        <p className="text-muted mb-6">
-          チケットのご予約は公式LINEからが便利です。<br />
-          LINEをお使いでない方はフォームからどうぞ。
+        <p className="text-muted mb-8">
+          チケットのご予約は予約フォームからどうぞ。<br />
+          公式LINEからもご予約いただけます。
         </p>
-        <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/images/line-tomodachi-button.png"
-            alt="LINE友だち追加でチケット予約"
-            width={200}
-            height={60}
-            className="mx-auto hover:opacity-90 transition-opacity"
-          />
-        </a>
-        <div className="mt-6">
-          <Link href="/contact#reservation" className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
-            フォームから予約する →
-          </Link>
+        <Link href="/contact#reservation" className="btn-primary inline-block mb-6">
+          チケット予約フォームへ
+        </Link>
+        <div>
+          <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
+            LINEで予約する →
+          </a>
         </div>
       </section>
 

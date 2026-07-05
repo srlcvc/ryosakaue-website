@@ -70,7 +70,13 @@ export default function ContactPage() {
         {/* Concert reservation form */}
         <div id="reservation">
           <h2 className="font-serif text-2xl mb-2">演奏会チケット予約フォーム</h2>
-          <p className="text-sm text-muted mb-8">LINEをお使いでない方はこちらのフォームからご予約ください。</p>
+          <p className="text-sm text-muted mb-2">フォームからご予約ください。</p>
+          <p className="text-sm text-muted mb-8">
+            公式LINEからもチケット予約を承っています。&nbsp;
+            <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="text-brown border-b border-brown hover:text-brown-dark transition-colors">
+              LINEで予約する →
+            </a>
+          </p>
           <form action="https://formspree.io/f/mojorjnv" method="POST" className="space-y-5">
             <input type="hidden" name="_subject" value="【チケット予約】ryosakaue.com" />
             <div>
