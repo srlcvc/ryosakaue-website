@@ -134,7 +134,7 @@ export default function HomePage() {
       <section className="bg-olive/10 border-t border-b border-olive/20 py-16">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="section-title mb-4">公式LINEで予約・お問い合わせ</h2>
-          <p className="text-muted mb-8">チケット予約・レッスンのご相談はLINEからもお気軽にどうぞ。</p>
+          <p className="text-muted mb-8">チケット予約のご相談はLINEからお気軽にどうぞ。</p>
           <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/line-tomodachi-button.png"

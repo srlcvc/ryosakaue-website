@@ -19,7 +19,7 @@ export default function ContactPage() {
         {/* LINE */}
         <div className="bg-olive/10 border border-olive/30 p-8 text-center mb-16">
           <h2 className="font-serif text-2xl mb-3">LINEでお気軽に</h2>
-          <p className="text-sm text-muted mb-6">チケット予約・レッスンのご相談は公式LINEが便利です。</p>
+          <p className="text-sm text-muted mb-6">チケット予約のご相談は公式LINEからどうぞ。</p>
           <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/line-tomodachi-button.png"
