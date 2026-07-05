@@ -62,16 +62,15 @@ export default function ProfilePage() {
 
       <section className="bg-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((n) => (
-              <div key={n} className="relative h-64">
-                <Image
-                  src={`/images/sakaue-ryo-cellist-nagoya-${n}.jpg`}
-                  alt={`坂上諒 チェリスト 名古屋 ${n}`}
-                  fill
-                  className="object-cover object-top"
-                />
-              </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {[1, 3].map((n) => (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                key={n}
+                src={`/images/sakaue-ryo-cellist-nagoya-${n}.jpg`}
+                alt={`坂上諒 チェリスト 名古屋 ${n}`}
+                className="w-full h-auto"
+              />
             ))}
           </div>
         </div>
