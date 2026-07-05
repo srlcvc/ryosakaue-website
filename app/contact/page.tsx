@@ -82,20 +82,15 @@ export default function ContactPage() {
               <label className="block text-sm font-bold text-warm-text mb-1">
                 公演名 <span className="text-brown text-xs">必須</span>
               </label>
-              <input type="text" name="concert" required defaultValue="坂上諒 チェロリサイタル（2026年10月11日）"
+              <input type="text" name="concert" required placeholder="坂上諒 チェロリサイタル（2026年10月11日）"
                 className="w-full border border-warm-border px-4 py-3 text-sm focus:outline-none focus:border-brown bg-white" />
             </div>
             <div>
               <label className="block text-sm font-bold text-warm-text mb-1">
                 チケット枚数 <span className="text-brown text-xs">必須</span>
               </label>
-              <select name="tickets" required
-                className="w-full border border-warm-border px-4 py-3 text-sm focus:outline-none focus:border-brown bg-white">
-                <option value="">選択してください</option>
-                {[1, 2, 3, 4, 5].map((n) => (
-                  <option key={n} value={n}>{n}枚</option>
-                ))}
-              </select>
+              <input type="number" name="tickets" required min={1} placeholder="枚数を入力"
+                className="w-full border border-warm-border px-4 py-3 text-sm focus:outline-none focus:border-brown bg-white" />
             </div>
             <div>
               <label className="block text-sm font-bold text-warm-text mb-1">電話番号（任意）</label>
