@@ -34,12 +34,13 @@ export default function PostPage({ params }: Props) {
       </section>
 
       {post.image && (
-        <div className="relative h-64 md:h-96 max-w-3xl mx-auto mt-8 px-4">
+        <div className="max-w-sm mx-auto mt-8 px-4">
           <Image
             src={post.image}
             alt={post.title}
-            fill
-            className="object-cover"
+            width={600}
+            height={849}
+            className="w-full h-auto shadow-md"
           />
         </div>
       )}
