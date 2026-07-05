@@ -16,7 +16,6 @@ const classic = [
   { id: 'GL30prQWP0c', title: 'チャイコフスキー：メロディー Op.42-3' },
   { id: 'DT94JO8rCbQ', title: 'ドビュッシー：チェロソナタ ニ短調' },
   // は行
-  { id: '15lMf4weHUs', title: 'ハイドン：チェロ協奏曲 第2番' },
   { id: 'oZ8cc51sufE', title: 'バッハ：無伴奏チェロ組曲 第1番（プレリュード・サラバンド・メヌエット）' },
   { id: 'xOflf3jl-r8', title: 'バッハ：無伴奏チェロ組曲 第1番 プレリュード' },
   { id: '_p6QSpUyuT8', title: 'バッハ：無伴奏チェロ組曲 第1番 クーラント' },
