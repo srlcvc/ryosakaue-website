@@ -50,6 +50,10 @@ export default function ContactPage() {
             </div>
             <button type="submit" className="btn-primary w-full text-center">送信する</button>
           </form>
+          <p className="text-xs text-muted mt-4">
+            返信メールが迷惑フォルダに振り分けられる場合がございます。<br />
+            あらかじめ <span className="text-warm-text">ryosakauevc@gmail.com</span> を受信できる設定の上、送信ください。
+          </p>
         </div>
 
         {/* Concert reservation form */}
