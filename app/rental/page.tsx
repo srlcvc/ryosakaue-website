@@ -33,21 +33,11 @@ export default function RentalPage() {
           <div className="mb-10">
             <h3 className="font-sans font-bold text-brown mb-4">対応サイズ</h3>
             <div className="space-y-2">
-              {[
-                { size: '1/8', note: '子ども用（小さめ）' },
-                { size: '1/4', note: '子ども用' },
-                { size: '1/2', note: '子ども用' },
-                { size: '3/4', note: 'ジュニア・小柄な方向け' },
-              ].map((item) => (
-                <div key={item.size} className="flex items-center gap-4 border-b border-warm-border py-3">
-                  <span className="font-bold text-warm-text w-12">{item.size}</span>
-                  <span className="text-sm text-muted">{item.note}</span>
+              {['1/8', '1/4', '1/2', '3/4', '4/4'].map((size) => (
+                <div key={size} className="border-b border-warm-border py-3">
+                  <span className="font-bold text-warm-text">{size}</span>
                 </div>
               ))}
-              <div className="flex items-center gap-4 py-3">
-                <span className="font-bold text-warm-text w-12">4/4</span>
-                <span className="text-sm text-muted">フルサイズ（現在在庫なし）</span>
-              </div>
             </div>
             <p className="text-xs text-muted mt-3">※ 台数に限りがあります。在庫状況はお問い合わせください。</p>
           </div>
