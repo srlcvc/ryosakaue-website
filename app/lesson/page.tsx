@@ -63,7 +63,7 @@ export default function LessonPage() {
               レッスンでは基礎的な構え方・弓の使い方から、スケール練習、曲の演奏まで段階的に学びます。趣味で楽しみたい方も、将来アンサンブルや発表会に出たい方も、それぞれの目標に合わせてカリキュラムを組みます。
             </p>
             <p>
-              お持ちの楽器をお持ちください。楽器をお持ちでない方はレンタルについてご相談ください。
+              お持ちの楽器をお持ちください。楽器をお持ちでない方は<Link href="/rental" className="text-brown underline underline-offset-2">楽器レンタル</Link>もご利用いただけます。
             </p>
           </div>
         </div>
