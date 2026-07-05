@@ -17,6 +17,7 @@ const upcoming = [
     program: 'バッハ：無伴奏チェロ組曲、他',
     pianist: 'ピアノ：佐々木杏子',
     available: true,
+    pdf: '/files/blog/recital-2026-10.pdf',
   },
 ];
 
@@ -43,6 +44,13 @@ export default function ConcertPage() {
               <div><dt className="inline font-bold text-warm-text">プログラム：</dt><dd className="inline">{c.program}</dd></div>
               <div><dt className="inline font-bold text-warm-text">共演：</dt><dd className="inline">{c.pianist}</dd></div>
             </dl>
+            {c.pdf && (
+              <div className="mb-4">
+                <a href={c.pdf} target="_blank" rel="noopener noreferrer" className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
+                  チラシをPDFで見る →
+                </a>
+              </div>
+            )}
             {c.available && (
               <div className="flex flex-wrap gap-4">
                 <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer">
