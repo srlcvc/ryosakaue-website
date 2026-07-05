@@ -36,7 +36,7 @@ export default function HomePage() {
           <p className="section-sub">About</p>
           <h2 className="section-title">チェリスト<br />坂上 諒</h2>
           <p className="text-muted leading-relaxed mt-4">
-            東京藝術大学別科チェロ専攻卒業後、イタリア サンタチェチーリア国立アカデミアに留学、Pavia Cello Academyを卒業。ベーテン音楽コンクール第1位、日本クラシック音楽コンクール第2位（最高位）など入賞多数。名古屋フィルハーモニー交響楽団をはじめ国内外のオーケストラと協奏曲を共演。現在は名古屋を拠点にソロ、室内楽、オーケストラへの客演など幅広く活動している。
+            東京藝術大学別科チェロ専攻卒業後、イタリア サンタチェチーリア国立アカデミアに留学、Pavia Cello Academyを卒業。ベーテン音楽コンクール第1位、日本クラシック音楽コンクール第2位（最高位）など入賞多数。名古屋フィルハーモニー交響楽団等のオーケストラと協奏曲を共演。現在は名古屋を拠点にソロ、室内楽、オーケストラへの客演など幅広く活動している。
           </p>
           <Link href="/profile" className="btn-outline mt-8 inline-block">プロフィールを見る</Link>
         </div>
