@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { getAllPosts, formatDate } from '@/lib/blog';
 
 export const metadata: Metadata = {
-  title: 'ブログ',
-  description: '坂上諒チェロ教室のブログ。コンサート情報、演奏動画、音楽のことなど。',
+  title: 'ニュース',
+  description: '坂上諒チェロ教室のニュース。コンサート情報、演奏動画、音楽のことなど。',
 };
 
 export default function BlogPage() {
@@ -15,7 +15,7 @@ export default function BlogPage() {
     <>
       <section className="bg-warm-text text-cream py-20 text-center">
         <p className="section-sub text-cream/60">Blog</p>
-        <h1 className="font-serif text-4xl md:text-5xl tracking-wide">ブログ</h1>
+        <h1 className="font-serif text-4xl md:text-5xl tracking-wide">ニュース</h1>
       </section>
 
       <section className="max-w-5xl mx-auto px-4 py-16">

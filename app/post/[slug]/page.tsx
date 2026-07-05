@@ -41,7 +41,7 @@ export default function PostPage({ params }: Props) {
 
         <div className="mt-12 pt-8 border-t border-warm-border flex gap-4">
           <Link href="/blog" className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
-            ← ブログ一覧
+            ← ニュース一覧
           </Link>
           <Link href="/concert" className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
             コンサート情報 →

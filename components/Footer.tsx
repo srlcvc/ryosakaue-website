@@ -18,7 +18,7 @@ export default function Footer() {
               ['/lesson', 'チェロ教室'],
               ['/profile', 'プロフィール'],
               ['/concert', 'コンサート'],
-              ['/blog', 'ブログ'],
+              ['/blog', 'ニュース'],
               ['/contact', 'お問い合わせ'],
             ].map(([href, label]) => (
               <li key={href}>

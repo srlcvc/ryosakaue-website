@@ -53,34 +53,51 @@ export default function HomePage() {
       {/* Services */}
       <section className="bg-white py-20">
         <div className="max-w-5xl mx-auto px-4">
-          <p className="section-sub text-center">Services</p>
-          <h2 className="section-title text-center mb-12">活動内容</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: '🎻',
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-16 h-16 text-brown">
+                    <rect x="8" y="26" width="48" height="30" rx="1" />
+                    <polygon points="4,26 32,8 60,26" />
+                    <rect x="27" y="42" width="10" height="14" />
+                    <rect x="12" y="32" width="10" height="8" />
+                    <rect x="42" y="32" width="10" height="8" />
+                  </svg>
+                ),
                 title: 'チェロ教室',
                 desc: '名古屋・星ヶ丘駅徒歩2分。初心者から経験者まで、丁寧に個人レッスンを行います。',
                 href: '/lesson',
                 label: '詳しく見る',
               },
               {
-                icon: '🎼',
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-16 h-16 text-brown">
+                    <ellipse cx="20" cy="48" rx="10" ry="7" transform="rotate(-20 20 48)" fill="currentColor" stroke="none" />
+                    <line x1="29" y1="43" x2="29" y2="12" strokeWidth="2.5" strokeLinecap="round" />
+                    <path d="M29 12 C42 16 46 26 38 36" strokeWidth="2" fill="none" strokeLinecap="round" />
+                  </svg>
+                ),
                 title: 'コンサート',
                 desc: 'ソロリサイタル、室内楽、パーティ演奏など様々な形でチェロの音楽をお届けします。',
                 href: '/concert',
                 label: 'コンサート情報',
               },
               {
-                icon: '🎬',
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-16 h-16 text-brown">
+                    <circle cx="32" cy="32" r="24" />
+                    <polygon points="26,22 26,42 46,32" fill="currentColor" stroke="none" />
+                  </svg>
+                ),
                 title: 'Music',
                 desc: 'YouTubeチャンネルで演奏動画を公開しています。クラシックからポップスまで。',
                 href: '/music',
                 label: '動画を見る',
               },
             ].map((item) => (
-              <div key={item.title} className="text-center p-8 border border-warm-border hover:shadow-md transition-shadow">
-                <div className="text-4xl mb-4">{item.icon}</div>
+              <div key={item.title} className="border border-warm-border hover:shadow-md transition-shadow p-8 text-center">
+                <div className="flex justify-center mb-6">{item.icon}</div>
                 <h3 className="font-serif text-xl mb-3">{item.title}</h3>
                 <p className="text-sm text-muted leading-relaxed mb-6">{item.desc}</p>
                 <Link href={item.href} className="text-sm text-brown border-b border-brown hover:text-brown-dark transition-colors">
@@ -110,7 +127,7 @@ export default function HomePage() {
             </article>
           ))}
         </div>
-        <Link href="/blog" className="btn-outline mt-8 inline-block">ブログ一覧</Link>
+        <Link href="/blog" className="btn-outline mt-8 inline-block">ニュース一覧</Link>
       </section>
 
       {/* LINE CTA */}

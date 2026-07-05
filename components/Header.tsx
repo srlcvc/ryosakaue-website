@@ -8,7 +8,7 @@ const navLinks = [
   { href: '/profile',  label: 'プロフィール' },
   { href: '/music',    label: 'Music' },
   { href: '/concert',  label: 'コンサート' },
-  { href: '/blog',     label: 'ブログ' },
+  { href: '/blog',     label: 'ニュース' },
   { href: '/faq',      label: 'よくある質問' },
   { href: '/contact',  label: 'お問い合わせ' },
 ];
