@@ -9,7 +9,6 @@ const navLinks = [
   { href: '/music',    label: 'Music' },
   { href: '/concert',  label: 'コンサート' },
   { href: '/blog',     label: 'ニュース' },
-  { href: '/faq',      label: 'よくある質問' },
   { href: '/contact',  label: 'お問い合わせ' },
 ];
 
