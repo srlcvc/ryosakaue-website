@@ -38,7 +38,6 @@ export default function LessonPage() {
 
       {/* Features */}
       <section className="max-w-5xl mx-auto px-4 py-16">
-        <p className="section-sub text-center">Features</p>
         <h2 className="section-title text-center mb-12">教室の特徴</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {features.map((f) => (
