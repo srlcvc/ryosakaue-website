@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   description:
     '名古屋市・星ヶ丘駅徒歩2分のチェロ教室。坂上諒（チェリスト）によるチェロレッスン。初心者から経験者まで丁寧に指導。愛知県のチェロ教室・チェロ先生をお探しの方はお気軽にどうぞ。',
   keywords: ['名古屋', 'チェロ教室', 'チェロレッスン', '愛知県', 'チェロ先生', '星ヶ丘', '坂上諒', 'チェリスト'],
+  verification: {
+    google: 'qMh2ds5uYKjbG_KQuMvQFlySYoksGxz-4AYBifmuhFQ',
+  },
   openGraph: {
     siteName: '坂上諒チェロ教室',
     locale: 'ja_JP',
