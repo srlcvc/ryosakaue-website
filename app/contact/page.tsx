@@ -107,6 +107,10 @@ export default function ContactPage() {
           <p className="text-xs text-muted mt-4">
             ご予約確認メールをお送りします。数日以内にご連絡がない場合はお手数ですがご連絡ください。
           </p>
+          <p className="text-xs text-muted mt-2">
+            返信メールが迷惑フォルダに振り分けられる場合がございます。<br />
+            あらかじめ <span className="text-warm-text">ryosakauevc@gmail.com</span> を受信できる設定の上、フォームをご送信ください。
+          </p>
         </div>
 
         {/* LINE info */}
