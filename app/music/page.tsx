@@ -22,6 +22,10 @@ const classic = [
   { id: '5Hkuensl3_o', title: 'ベートーヴェン：魔笛の主題による7つの変奏曲' },
   { id: '6kV1WCKOucM', title: 'リゲティ：無伴奏チェロソナタ 第2楽章' },
   { id: 'pQoJbolLcj8', title: 'パラディス：シチリアーノ' },
+  { id: 'NBikLNyzD1A', title: 'グリーグ：チェロソナタ イ短調 Op.36' },
+  { id: 'GL30prQWP0c', title: 'チャイコフスキー：メロディー Op.42-3' },
+  { id: '1IMfhJBDjG4', title: 'チャイコフスキー：ノクターン Op.19-4' },
+  { id: 'eE_uboaOy4Q', title: 'ストラヴィンスキー：イタリア組曲' },
 ];
 
 const film = [
