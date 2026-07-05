@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja" className={`${cormorant.variable} ${noto.variable} ${mincho.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/images/logo-school.png" type="image/png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

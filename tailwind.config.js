@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         cream:   '#FAF8F4',
-        brown:   '#7C5137',
-        'brown-dark': '#5E3D28',
+        brown:   '#8B0000',
+        'brown-dark': '#6B0000',
         olive:   '#4A6741',
         'warm-text':  '#2C1A0F',
         'muted':      '#6B5D52',
