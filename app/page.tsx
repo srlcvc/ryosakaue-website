@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative h-[90vh] min-h-[560px] flex items-center">
+      <section className="relative h-[90vh] min-h-[560px] flex items-end pb-16">
         <Image
           src="/images/sakaue-ryo-cellist-nagoya-1.jpg"
           alt="チェリスト坂上諒 名古屋"
@@ -16,11 +16,10 @@ export default function HomePage() {
           className="object-cover object-top"
           priority
         />
-        <div className="absolute inset-0 bg-warm-text/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-warm-text/80 via-warm-text/20 to-transparent" />
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-cream">
           <p className="text-sm tracking-[0.3em] mb-4 text-cream/80">NAGOYA CELLIST</p>
-          <h1 className="font-serif text-5xl md:text-7xl mb-4 tracking-widest">坂上 諒</h1>
-          <p className="text-lg md:text-xl mb-8 text-cream/90">チェリスト｜名古屋・星ヶ丘</p>
+          <h1 className="font-serif text-5xl md:text-7xl mb-6 tracking-widest">坂上 諒</h1>
           <div className="flex flex-wrap gap-4">
             <Link href="/lesson" className="btn-primary">チェロ教室</Link>
             <Link href="/concert" className="border border-cream text-cream px-6 py-3 text-sm tracking-wider hover:bg-cream hover:text-warm-text transition-colors">
