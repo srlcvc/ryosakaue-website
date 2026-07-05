@@ -40,7 +40,7 @@ export default function HomePage() {
           </p>
           <Link href="/profile" className="btn-outline mt-8 inline-block">プロフィールを見る</Link>
         </div>
-        <div className="relative h-80 md:h-96">
+        <div className="relative h-80 md:h-96 hidden md:block">
           <Image
             src="/images/sakaue-ryo-cellist-nagoya-2.jpg"
             alt="坂上諒 チェリスト 名古屋"
