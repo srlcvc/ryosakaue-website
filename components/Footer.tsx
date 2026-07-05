@@ -6,7 +6,6 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <p className="font-serif text-xl tracking-widest mb-2">坂上 諒</p>
-          <p className="text-sm text-cream/70 mt-1">星ヶ丘駅徒歩2分</p>
         </div>
 
         <div>
