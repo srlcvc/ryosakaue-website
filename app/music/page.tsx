@@ -6,26 +6,32 @@ export const metadata: Metadata = {
 };
 
 const classic = [
+  // か行
+  { id: 'NBikLNyzD1A', title: 'グリーグ：チェロソナタ イ短調 Op.36' },
+  // さ行
+  { id: 'i8MEBoKDvSo', title: 'ショスタコーヴィチ：チェロソナタ ニ短調' },
+  { id: 'eE_uboaOy4Q', title: 'ストラヴィンスキー：イタリア組曲' },
+  // た行
+  { id: '1IMfhJBDjG4', title: 'チャイコフスキー：ノクターン Op.19-4' },
+  { id: 'GL30prQWP0c', title: 'チャイコフスキー：メロディー Op.42-3' },
+  { id: 'DT94JO8rCbQ', title: 'ドビュッシー：チェロソナタ ニ短調' },
+  // は行
+  { id: '15lMf4weHUs', title: 'ハイドン：チェロ協奏曲 第2番' },
   { id: 'oZ8cc51sufE', title: 'バッハ：無伴奏チェロ組曲 第1番（プレリュード・サラバンド・メヌエット）' },
   { id: 'xOflf3jl-r8', title: 'バッハ：無伴奏チェロ組曲 第1番 プレリュード' },
   { id: '_p6QSpUyuT8', title: 'バッハ：無伴奏チェロ組曲 第1番 クーラント' },
   { id: 'Lqg6T7l5IKQ', title: 'バッハ：無伴奏チェロ組曲 第1番 サラバンド' },
   { id: 'EnUscDdIvbI', title: 'バッハ：無伴奏チェロ組曲 第1番 メヌエット' },
   { id: 'jX_TmSlHXlQ', title: 'バッハ：無伴奏チェロ組曲 第5番' },
-  { id: 'DT94JO8rCbQ', title: 'ドビュッシー：チェロソナタ ニ短調' },
-  { id: 'v0uQMqR6KQo', title: 'ラフマニノフ：チェロソナタ ト短調' },
-  { id: 'i8MEBoKDvSo', title: 'ショスタコーヴィチ：チェロソナタ ニ短調' },
-  { id: 'BvhokI4Cr8Q', title: 'メンデルスゾーン：協奏的変奏曲' },
-  { id: '15lMf4weHUs', title: 'ハイドン：チェロ協奏曲 第2番' },
-  { id: 'cgK4TGcXu2o', title: 'ボッケリーニ：チェロソナタ イ長調 G.4' },
-  { id: 'f8AJ0E5mMxs', title: 'ロッシーニ：涙（主題と変奏）' },
-  { id: '5Hkuensl3_o', title: 'ベートーヴェン：魔笛の主題による7つの変奏曲' },
-  { id: '6kV1WCKOucM', title: 'リゲティ：無伴奏チェロソナタ 第2楽章' },
   { id: 'pQoJbolLcj8', title: 'パラディス：シチリアーノ' },
-  { id: 'NBikLNyzD1A', title: 'グリーグ：チェロソナタ イ短調 Op.36' },
-  { id: 'GL30prQWP0c', title: 'チャイコフスキー：メロディー Op.42-3' },
-  { id: '1IMfhJBDjG4', title: 'チャイコフスキー：ノクターン Op.19-4' },
-  { id: 'eE_uboaOy4Q', title: 'ストラヴィンスキー：イタリア組曲' },
+  { id: '5Hkuensl3_o', title: 'ベートーヴェン：魔笛の主題による7つの変奏曲' },
+  { id: 'cgK4TGcXu2o', title: 'ボッケリーニ：チェロソナタ イ長調 G.4' },
+  // ま行
+  { id: 'BvhokI4Cr8Q', title: 'メンデルスゾーン：協奏的変奏曲' },
+  // ら行
+  { id: 'v0uQMqR6KQo', title: 'ラフマニノフ：チェロソナタ ト短調' },
+  { id: '6kV1WCKOucM', title: 'リゲティ：無伴奏チェロソナタ 第2楽章' },
+  { id: 'f8AJ0E5mMxs', title: 'ロッシーニ：涙（主題と変奏）' },
 ];
 
 const film = [
