@@ -46,7 +46,6 @@ const popular = [
   { id: 'mAtWPRZEf3Y', title: 'YOASOBI：群青' },
   { id: 'm9C5vaE_hAE', title: '宇多田ヒカル：One Last Kiss' },
   { id: '8tpqg1GzRX8', title: 'Ed Sheeran：Shape of You' },
-  { id: 'z1CXSYxlslo', title: '成田為三：浜辺の歌' },
 ];
 
 function VideoCard({ id, title }: { id: string; title: string }) {
