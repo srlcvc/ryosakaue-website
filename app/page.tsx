@@ -141,7 +141,7 @@ export default function HomePage() {
               alt="LINE友だち追加"
               width={200}
               height={60}
-              className="mx-auto hover:opacity-90 transition-opacity"
+              className="mx-auto hover:opacity-90 transition-opacity w-36 md:w-48"
             />
           </a>
         </div>
