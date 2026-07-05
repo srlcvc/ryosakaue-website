@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-warm-text font-sans;
+  }
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-brown text-white px-6 py-3 text-sm tracking-wider hover:bg-brown-dark transition-colors;
+  }
+  .btn-outline {
+    @apply inline-block border border-brown text-brown px-6 py-3 text-sm tracking-wider hover:bg-brown hover:text-white transition-colors;
+  }
+  .section-title {
+    @apply font-serif text-3xl text-warm-text mb-2 tracking-wide;
+  }
+  .section-sub {
+    @apply text-sm text-muted tracking-widest uppercase mb-8;
+  }
+}
