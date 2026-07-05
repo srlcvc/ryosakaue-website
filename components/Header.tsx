@@ -28,7 +28,7 @@ export default function Header() {
         <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((l) => (
             <Link key={l.href} href={l.href}
-              className="text-sm text-warm-text hover:text-brown transition-colors font-sans">
+              className="text-sm text-warm-text hover:text-brown transition-colors font-mincho tracking-wider">
               {l.label}
             </Link>
           ))}
@@ -49,7 +49,7 @@ export default function Header() {
           {navLinks.map((l) => (
             <Link key={l.href} href={l.href}
               onClick={() => setOpen(false)}
-              className="block py-3 text-warm-text hover:text-brown font-sans border-b border-warm-border last:border-0">
+              className="block py-3 text-warm-text hover:text-brown font-mincho tracking-wider border-b border-warm-border last:border-0">
               {l.label}
             </Link>
           ))}
