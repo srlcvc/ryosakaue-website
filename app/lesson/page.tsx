@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const features = [
-  { title: '初心者歓迎', desc: '楽器を触ったことがない方も大歓迎。楽譜の読み方から丁寧にお教えします。' },
+  { title: '初心者歓迎', desc: '楽器を触ったことがない方も大歓迎。お一人おひとりのペースに合わせてレッスンします。' },
   { title: '全年齢対応', desc: 'お子様から大人まで幅広く対応。それぞれのペースで無理なく上達できます。' },
   { title: '駅近・通いやすい', desc: '地下鉄東山線・星ヶ丘駅から徒歩2分。名古屋市内どこからでもアクセス便利。' },
   { title: 'プロ奏者が指導', desc: '現役チェリストが演奏活動で培った技術と表現力を丁寧に伝えます。' },
@@ -71,7 +71,6 @@ export default function LessonPage() {
 
       {/* Fees */}
       <section className="max-w-5xl mx-auto px-4 py-16">
-        <p className="section-sub text-center">Fee</p>
         <h2 className="section-title text-center mb-4">料金</h2>
         <p className="text-center text-sm text-muted mb-12">入会金：無料</p>
         <div className="max-w-2xl mx-auto grid md:grid-cols-2 gap-8">
@@ -127,9 +126,6 @@ export default function LessonPage() {
         <p className="text-muted mb-8">体験レッスン（30分・無料）はいつでも受け付けています。お気軽にお問い合わせください。</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link href="/contact" className="btn-primary">お問い合わせ・申込み</Link>
-          <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="btn-outline">
-            LINEで相談する
-          </a>
         </div>
       </section>
 
