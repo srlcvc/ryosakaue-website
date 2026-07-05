@@ -111,7 +111,7 @@ export default function HomePage() {
 
       {/* Latest blog */}
       <section className="max-w-5xl mx-auto px-4 py-20">
-        <p className="section-sub">Blog</p>
+        <p className="section-sub">News</p>
         <h2 className="section-title mb-12">最新情報</h2>
         <div className="divide-y divide-warm-border">
           {recentPosts.map((post) => (

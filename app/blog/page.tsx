@@ -14,7 +14,7 @@ export default function BlogPage() {
   return (
     <>
       <section className="bg-warm-text text-cream py-20 text-center">
-        <p className="section-sub text-cream/60">Blog</p>
+        <p className="section-sub text-cream/60">News</p>
         <h1 className="font-serif text-4xl md:text-5xl tracking-wide">ニュース</h1>
       </section>
 
