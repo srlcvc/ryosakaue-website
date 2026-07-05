@@ -14,11 +14,16 @@ const features = [
   { title: 'プロ奏者が指導', desc: '現役チェリストが演奏活動で培った技術と表現力を丁寧に伝えます。' },
 ];
 
-const feeItems = [
-  { label: '体験レッスン（60分）', price: '3,000円' },
-  { label: '月2回（各45分）', price: '8,000円〜' },
-  { label: '月3回（各45分）', price: '11,000円〜' },
-  { label: '月4回（各45分）', price: '14,000円〜' },
+const beginnerFees = [
+  { label: '30分', price: '3,500円' },
+  { label: '45分', price: '5,300円' },
+  { label: '60分', price: '7,000円' },
+];
+
+const advancedFees = [
+  { label: '30分', price: '4,500円' },
+  { label: '45分', price: '6,000円' },
+  { label: '60分', price: '8,000円' },
 ];
 
 export default function LessonPage() {
@@ -67,19 +72,42 @@ export default function LessonPage() {
       {/* Fees */}
       <section className="max-w-5xl mx-auto px-4 py-16">
         <p className="section-sub text-center">Fee</p>
-        <h2 className="section-title text-center mb-12">料金</h2>
-        <div className="max-w-lg mx-auto">
-          <table className="w-full text-sm">
-            <tbody className="divide-y divide-warm-border">
-              {feeItems.map((item) => (
-                <tr key={item.label}>
-                  <td className="py-4 text-warm-text">{item.label}</td>
-                  <td className="py-4 text-right font-bold text-brown">{item.price}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <p className="text-xs text-muted mt-4">※ 料金は目安です。詳細はお問い合わせください。</p>
+        <h2 className="section-title text-center mb-4">料金</h2>
+        <p className="text-center text-sm text-muted mb-12">入会金：無料</p>
+        <div className="max-w-2xl mx-auto grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 className="font-sans font-bold text-brown mb-1 text-center">初心者コース</h3>
+            <p className="text-xs text-muted text-center mb-4">鈴木鎮一チェロ指導曲集3巻程度まで</p>
+            <table className="w-full text-sm">
+              <tbody className="divide-y divide-warm-border">
+                {beginnerFees.map((item) => (
+                  <tr key={item.label}>
+                    <td className="py-3 text-warm-text">{item.label}</td>
+                    <td className="py-3 text-right font-bold text-brown">{item.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3 className="font-sans font-bold text-brown mb-1 text-center">中・上級者コース</h3>
+            <p className="text-xs text-muted text-center mb-4">&nbsp;</p>
+            <table className="w-full text-sm">
+              <tbody className="divide-y divide-warm-border">
+                {advancedFees.map((item) => (
+                  <tr key={item.label}>
+                    <td className="py-3 text-warm-text">{item.label}</td>
+                    <td className="py-3 text-right font-bold text-brown">{item.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div className="max-w-2xl mx-auto mt-6 text-xs text-muted space-y-1">
+          <p>※ 未就学児のお子様は30分レッスンのみとなっております。</p>
+          <p>※ 楽譜や発表会などの費用は別料金となっております。</p>
+          <p>※ キャンセルは前日までにご連絡いただければ無料です。当日のキャンセルは1,000円のキャンセル料がかかります。</p>
         </div>
       </section>
 
@@ -97,7 +125,7 @@ export default function LessonPage() {
       {/* CTA */}
       <section className="bg-olive/10 py-16 text-center">
         <h2 className="section-title mb-4">まずは体験レッスンへ</h2>
-        <p className="text-muted mb-8">体験レッスン（60分・3,000円）はいつでも受け付けています。</p>
+        <p className="text-muted mb-8">体験レッスン（30分・無料）はいつでも受け付けています。お気軽にお問い合わせください。</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link href="/contact" className="btn-primary">お問い合わせ・申込み</Link>
           <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer" className="btn-outline">

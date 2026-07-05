@@ -19,8 +19,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-warm-border shadow-sm">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between h-16">
-        <Link href="/" className="font-serif text-xl text-warm-text tracking-widest hover:text-brown transition-colors">
-          坂上 諒 <span className="text-sm font-sans text-muted">Cello</span>
+        <Link href="/" className="hover:text-brown transition-colors flex flex-col leading-tight">
+          <span className="font-serif text-xl text-warm-text tracking-widest">坂上 諒</span>
+          <span className="text-xs font-sans tracking-widest text-muted">SAKAUE CELLO SCHOOL</span>
         </Link>
 
         {/* Desktop nav */}
