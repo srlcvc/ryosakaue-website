@@ -34,9 +34,9 @@ export default function HomePage() {
       <section className="max-w-5xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="section-sub">About</p>
-          <h2 className="section-title">チェロの音色で、<br />心に届く音楽を</h2>
+          <h2 className="section-title">チェリスト<br />坂上 諒</h2>
           <p className="text-muted leading-relaxed mt-4">
-            名古屋を拠点に活動するチェリスト、坂上諒です。ソロリサイタル、室内楽、オーケストラのエキストラなど幅広く演奏活動を行うとともに、星ヶ丘駅から徒歩2分の自宅スタジオでチェロレッスンを行っています。
+            東京藝術大学別科チェロ専攻卒業後、イタリア サンタチェチーリア国立アカデミアに留学、Pavia Cello Academyを卒業。ベーテン音楽コンクール第1位、日本クラシック音楽コンクール第2位（最高位）など入賞多数。名古屋フィルハーモニー交響楽団をはじめ国内外のオーケストラと協奏曲を共演。現在は名古屋を拠点にソロ、室内楽、オーケストラへの客演など幅広く活動している。
           </p>
           <Link href="/profile" className="btn-outline mt-8 inline-block">プロフィールを見る</Link>
         </div>
