@@ -18,7 +18,6 @@ module.exports = {
       fontFamily: {
         serif:   ['var(--font-cormorant)', 'Georgia', 'serif'],
         sans:    ['var(--font-noto)', 'sans-serif'],
-        mincho:  ['var(--font-mincho)', 'Georgia', 'serif'],
       },
     },
   },

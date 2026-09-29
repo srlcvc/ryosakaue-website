@@ -5,7 +5,7 @@ import { getAllPosts, formatDate } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'ニュース',
-  description: '坂上諒チェロ教室のニュース。コンサート情報、演奏動画、音楽のことなど。',
+  description: 'チェリスト坂上諒の最新情報。名古屋・愛知県でのコンサート演奏会情報、チェロ演奏動画など。坂上諒チェロ教室からのお知らせも掲載。',
 };
 
 export default function BlogPage() {

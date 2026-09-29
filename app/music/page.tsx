@@ -1,34 +1,46 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Music',
-  description: 'チェリスト坂上諒の演奏動画。バッハ、クラシック、ポップスまで幅広く。YouTubeチャンネル「Ryo Sakaue Cello」にて公開中。',
+  title: '坂上諒 演奏動画 | チェリスト・チェロ',
+  description: 'チェリスト坂上諒の演奏動画一覧。バッハ：無伴奏チェロ組曲、グリーグ・ショスタコーヴィチのチェロソナタ、ドビュッシー、もののけ姫など。YouTubeチャンネルにて公開中。',
+  openGraph: {
+    title: '坂上諒 演奏動画 | チェリスト・チェロ',
+    description: 'チェリスト坂上諒の演奏動画。バッハ無伴奏、グリーグ・ショスタコーヴィチのチェロソナタなどクラシックからポップスまで。',
+    images: [
+      {
+        url: 'https://img.youtube.com/vi/oZ8cc51sufE/hqdefault.jpg',
+        width: 480,
+        height: 360,
+        alt: '坂上諒 チェロ バッハ無伴奏チェロ組曲',
+      },
+    ],
+  },
 };
 
 const classic = [
-  // か行
   { id: 'NBikLNyzD1A', title: 'グリーグ：チェロソナタ イ短調 Op.36' },
-  // さ行
   { id: 'i8MEBoKDvSo', title: 'ショスタコーヴィチ：チェロソナタ ニ短調' },
   { id: 'eE_uboaOy4Q', title: 'ストラヴィンスキー：イタリア組曲' },
-  // た行
   { id: '1IMfhJBDjG4', title: 'チャイコフスキー：ノクターン Op.19-4' },
   { id: 'GL30prQWP0c', title: 'チャイコフスキー：メロディー Op.42-3' },
   { id: 'DT94JO8rCbQ', title: 'ドビュッシー：チェロソナタ ニ短調' },
-  // は行
   { id: 'oZ8cc51sufE', title: 'バッハ：無伴奏チェロ組曲 第1番（プレリュード・サラバンド・メヌエット）' },
   { id: 'xOflf3jl-r8', title: 'バッハ：無伴奏チェロ組曲 第1番 プレリュード' },
   { id: '_p6QSpUyuT8', title: 'バッハ：無伴奏チェロ組曲 第1番 クーラント' },
   { id: 'Lqg6T7l5IKQ', title: 'バッハ：無伴奏チェロ組曲 第1番 サラバンド' },
   { id: 'EnUscDdIvbI', title: 'バッハ：無伴奏チェロ組曲 第1番 メヌエット' },
+  { id: 'K7J0Yjswd8A', title: 'バッハ：無伴奏チェロ組曲 第3番 ハ長調' },
   { id: 'jX_TmSlHXlQ', title: 'バッハ：無伴奏チェロ組曲 第5番' },
+  { id: 'eEc938qHVOU', title: 'バッハ：無伴奏チェロ組曲 第6番 プレリュード' },
+  { id: 'O6qQlwajJbE', title: 'バッハ：無伴奏チェロ組曲 第6番 クーラント' },
+  { id: 'R-CIGq9_wJU', title: 'バッハ：無伴奏チェロ組曲 第6番 サラバンド' },
+  { id: 'rwvpcgE-Zho', title: 'バッハ：無伴奏チェロ組曲 第6番 ジーグ' },
   { id: 'pQoJbolLcj8', title: 'パラディス：シチリアーノ' },
   { id: '5Hkuensl3_o', title: 'ベートーヴェン：魔笛の主題による7つの変奏曲' },
   { id: 'cgK4TGcXu2o', title: 'ボッケリーニ：チェロソナタ イ長調 G.4' },
-  // ま行
   { id: 'BvhokI4Cr8Q', title: 'メンデルスゾーン：協奏的変奏曲' },
-  // ら行
   { id: 'v0uQMqR6KQo', title: 'ラフマニノフ：チェロソナタ ト短調' },
+  { id: '1QB8U5YA4Qs', title: 'リゲティ：無伴奏チェロソナタ' },
   { id: '6kV1WCKOucM', title: 'リゲティ：無伴奏チェロソナタ 第2楽章' },
   { id: 'f8AJ0E5mMxs', title: 'ロッシーニ：涙（主題と変奏）' },
 ];
@@ -59,8 +71,8 @@ function VideoCard({ id, title }: { id: string; title: string }) {
       <div className="relative aspect-video overflow-hidden bg-black">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
-          alt={title}
+          src={`/images/youtube/${id}.jpg`}
+          alt={`坂上諒 チェロ ${title}`}
           className="w-full h-full object-cover group-hover:opacity-75 transition-opacity"
         />
         <div className="absolute inset-0 flex items-center justify-center">
@@ -90,9 +102,31 @@ function Section({ label, title, videos }: { label: string; title: string; video
   );
 }
 
+const allVideos = [...classic, ...film, ...popular];
+
 export default function MusicPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            name: '坂上諒 演奏動画一覧',
+            description: 'チェリスト坂上諒のYouTube演奏動画。クラシック・映画音楽・ポピュラー。',
+            url: 'https://www.ryosakaue.com/music',
+            itemListElement: allVideos.map((v, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              name: `坂上諒 チェロ ${v.title}`,
+              url: `https://www.youtube.com/watch?v=${v.id}`,
+              image: `https://www.ryosakaue.com/images/youtube/${v.id}.jpg`,
+            })),
+          }),
+        }}
+      />
+
       <section className="bg-warm-text text-cream py-20 text-center">
         <p className="section-sub text-cream/60">Music</p>
         <h1 className="font-serif text-4xl md:text-5xl tracking-wide">Music</h1>

@@ -11,8 +11,9 @@ export default function HomePage() {
       <section className="relative h-[90vh] min-h-[560px] flex items-end md:items-center">
         <Image
           src="/images/sakaue-ryo-cellist-nagoya-1.jpg"
-          alt="チェリスト坂上諒 名古屋"
+          alt="坂上諒 チェリスト 名古屋"
           fill
+          sizes="100vw"
           className="object-cover object-top"
           priority
         />
@@ -47,6 +48,7 @@ export default function HomePage() {
             src="/images/sakaue-ryo-cellist-nagoya-2.jpg"
             alt="坂上諒 チェリスト 名古屋"
             fill
+            sizes="(max-width: 768px) 0px, 50vw"
             className="object-cover object-top"
           />
         </div>

@@ -46,7 +46,10 @@ export default function Footer() {
 
         <div>
           <p className="text-sm font-bold mb-3 text-cream/80 tracking-wider">CONTACT</p>
-          <p className="text-sm text-cream/70 mb-4">ryosakauevc@gmail.com</p>
+          <a href="mailto:ryosakauevc@gmail.com"
+             className="text-sm text-cream/70 hover:text-cream transition-colors mb-4 inline-block">
+            ryosakauevc@gmail.com
+          </a>
           <div className="flex gap-5">
             <a href="https://lin.ee/5uD2RP5H" target="_blank" rel="noopener noreferrer"
                className="text-cream/70 hover:text-cream transition-colors" aria-label="LINE">

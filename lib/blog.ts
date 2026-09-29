@@ -1,5 +1,12 @@
 import posts from '@/data/blog-posts.json';
 
+export interface PurchaseLink {
+  label: string;
+  shop: string;
+  url: string;
+  group?: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -8,6 +15,7 @@ export interface BlogPost {
   content: string;
   image?: string;
   pdf?: string;
+  purchaseLinks?: PurchaseLink[];
 }
 
 export function getAllPosts(): BlogPost[] {

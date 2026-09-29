@@ -34,7 +34,7 @@ export default function LessonPage() {
       <section className="bg-warm-text text-cream py-16 text-center">
         <Image
           src="/images/logo-school.png"
-          alt="Sakaue Cello School"
+          alt="坂上諒チェロ教室 名古屋・星ヶ丘 ロゴ"
           width={180}
           height={180}
           className="mx-auto mb-8 rounded-sm"

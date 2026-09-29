@@ -1,37 +1,379 @@
 [
   {
-    "slug": "チェロリサイタル-3",
+    "slug": "cello-wolf-killer",
+    "title": "チェロのウルフキラーおすすめ4選｜ウルフ音の原因と対策",
+    "date": "2025-01-15",
+    "category": "チェロ練習",
+    "content": "ウルフ音（ウルフトーン）はチェロ特有の現象で、特定の音（多くはF#・G周辺）を弾いたとき、楽器の胴体の固有振動と弦の振動が干渉し、音がぐらついたり震えたりします。楽器の個体差によって出やすい音域は異なりますが、多くのチェロに多かれ少なかれ存在します。\n\nウルフキラー（ウルフトーンエリミネーター）は弦や楽器に取り付けることで、この共振を制御するためのアクセサリーです。\n\n■ 取り付け位置について\n\n一般的なウルフキラーは、テールピースとエンドピン側の弦（テールピースから先の余り弦）に装着します。左右にスライドさせながら最も効果的な位置を探して固定します。\n\nまずG線に装着するのが一般的ですが、楽器によっては他の弦に取り付けることでウルフが止まる場合もあります。\n\n■ 真ちゅう（ブラス）タイプ\n\n真鍮製のシンプルなウルフキラー。ネジで弦に固定し、金属の重量で弦の振動特性を変えることでウルフ音を抑えます。なお、ゴム製のウルフキラーも市販されていますが、ゴムが振動を吸収してしまうため、音色への影響を考えると真鍮・金属製を選ぶことをおすすめします。\n\n[[PURCHASE_LINKS:wolf_brass]]\n\n■ MITSUKE ピュア・ブリランテ（ゴムレス）\n\nエンドピンで知られる国産精密機器メーカーMITSUKEによるウルフキラー。一般的なウルフキラーにはゴム部品が使われますが、このモデルは弦への接触部まですべて真鍮で構成されたゴムレス設計です。波状の溝に弦を引っ掛ける独自の取付方式で、ゴムによる振動吸収がない分、ウルフを抑えながら音色への余計な影響を最小限に抑えると言われています。\n\n[[PURCHASE_LINKS:wolf_mitsuke]]\n\n■ Krentz Modulator（クレンツ モジュレーター）\n\nアメリカ・Krentz String Works社のウルフキラー。他のウルフキラーが弦に取り付けるのに対し、楽器本体に取り付けて使います。音色への影響が少ないと評価されています。\n\n[[PURCHASE_LINKS:wolf_krentz]]\n\n■ Götz ウルフ・イルミネーター（Resonator）\n\nドイツのGötz社による共振型ウルフキラー。単に重量を加えるのではなく、内蔵された共振構造がウルフ音の周波数に合わせて調整できる設計です。ウルフを「消す」のではなく「制御する」というコンセプトで、音色への悪影響が少なく、楽器の響きを生かしたままウルフを和らげると評価されています。\n\n[[PURCHASE_LINKS:wolf_illuminator]]",
+    "purchaseLinks": [
+      {"label": "真ちゅう製ウルフキラー（チェロ・コントラバス用）", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B0951TZKX6/?tag=ryosakaue-22", "group": "wolf_brass"},
+      {"label": "MITSUKE ピュア・ブリランテ ゴムレス ウルフキラー（チェロ用）", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B003RNZ016/?tag=ryosakaue-22", "group": "wolf_mitsuke"},
+      {"label": "Krentz Modulator チェロ用ウルフキラー", "shop": "公式サイト", "url": "https://krentzstringworks.com/shop/modulator/", "group": "wolf_krentz"},
+      {"label": "ウルフ・イルミネーター チェロ用 Resonator共振調節器", "shop": "楽天", "url": "https://hb.afl.rakuten.co.jp/ichiba/558cbc97.5daa9157.558cbc98.a71f01ed/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fviolinjp%2Fgotzresonator%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D", "group": "wolf_illuminator"}
+    ]
+  },
+  {
+    "slug": "cello-endpin",
+    "title": "チェロのエンドピンおすすめ6選｜素材で変わる音色",
+    "date": "2025-02-01",
+    "category": "チェロ練習",
+    "content": "エンドピンは楽器の底部に差し込む金属棒で、演奏時に床に突き立てて楽器を支えます。標準で付属しているエンドピンを素材の違う製品に交換することで、音色・響き・演奏感が変化します。\n\n■ 購入前に径サイズを確認してください\n\nチェロのエンドピンには径8mmと径10mmの2種類があります。購入する前に、自分の楽器のソケットがどちらかを必ず確認してください。\n\n■ MITSUKE（見附精機工業）\n\n日本の精密機器メーカーによる国産エンドピン。素材の組み合わせの違いでラインナップが分かれており、国内外のプロ奏者にも愛用されています。\n\n・カーボン\n非常に軽量。まろやかで深みのある音色で、明るく開いた響きが特徴です。\n\n[[PURCHASE_LINKS:mitsuke_carbon]]\n\n・チタン入り真鍮\n真鍮にチタンのチップを加えたモデル。音が明るくパワフルになり、響きが増します。\n\n[[PURCHASE_LINKS:mitsuke_hybrid]]\n\n・タングステン入り真鍮\n真鍮にタングステンのチップを加えたモデル。タングステンはチタンより重く密度の高い金属で、音に重厚感と落ち着いた深みが加わります。しっかりとした存在感のある音色です。\n\n[[PURCHASE_LINKS:mitsuke_tungsten]]\n\n・トリプルブリランテ\nタングステン・チタン・真鍮の3素材を組み合わせた上位モデル。輝かしく明瞭な音色で、アタックが鮮明でリリースが豊かです。\n\n[[PURCHASE_LINKS:mitsuke_triple]]\n\n・カルテット\nタングステン・チタン・カーボン・真鍮の4素材を組み合わせた最上位モデル。トリプルブリランテの輝きにしなやかさが加わり、強さと繊細さが両立します。\n\n[[PURCHASE_LINKS:mitsuke_quartet]]\n\n■ ALFE（アルフェ）\n\n「アルフェ」という特殊合金を使用した日本製エンドピン。アルフェ合金は微振動を素早く吸収・減衰させる性質を持ち、不要な共鳴やノイズを排除します。低音域の広がりと高音域の輝きが増し、音に芯と張りが生まれることで音程が取りやすくなる、と評価されています。アンティーク調のブロンズ色の外観も特徴のひとつです。\n\n[[PURCHASE_LINKS:alfe]]\n\n■ シングルアイ\n\nチェリスト・毛利巨塵氏によるハンドメイドエンドピン。特殊ステンレス合金を真空窯で焼き入れ処理することでタングステンを超える硬度を実現しつつ、靱性（折れにくさ）とのバランスも取られています。音色は清冽で純度が高く、非常に伸びがよいと評価されています。パワフルかつ輪郭のある音色で、細かいパッセージの明瞭さも増します。\n\n[[PURCHASE_LINKS:single_eye]]",
+    "purchaseLinks": [
+      {"label": "MITSUKE カーボンエンドピン 径8ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B004G24T7I/?tag=ryosakaue-22", "group": "mitsuke_carbon"},
+      {"label": "MITSUKE カーボンエンドピン 径10ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B00AA6ODFC/?tag=ryosakaue-22", "group": "mitsuke_carbon"},
+      {"label": "MITSUKE チタン入り真鍮エンドピン 径8ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B004FQ9MUO/?tag=ryosakaue-22", "group": "mitsuke_hybrid"},
+      {"label": "MITSUKE チタン入り真鍮エンドピン 径10ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B00AA7HGJQ/?tag=ryosakaue-22", "group": "mitsuke_hybrid"},
+      {"label": "MITSUKE タングステン入り真鍮エンドピン 径8ミリ", "shop": "楽天", "url": "https://hb.afl.rakuten.co.jp/ichiba/558717ec.ac682346.558717ed.77242f53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyaji-onlineshop%2Fsr19-7135%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D", "group": "mitsuke_tungsten"},
+      {"label": "MITSUKE タングステン入り真鍮エンドピン 径10ミリ", "shop": "楽天", "url": "https://hb.afl.rakuten.co.jp/ichiba/558717ec.ac682346.558717ed.77242f53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyaji-onlineshop%2Fsr19-7136%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D", "group": "mitsuke_tungsten"},
+      {"label": "MITSUKE トリプルブリランテ 径8ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B004FQHCDI/?tag=ryosakaue-22", "group": "mitsuke_triple"},
+      {"label": "MITSUKE トリプルブリランテ 径10ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B004FQ8EPI/?tag=ryosakaue-22", "group": "mitsuke_triple"},
+      {"label": "MITSUKE カルテット 径8ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B00DGMSMEA/?tag=ryosakaue-22", "group": "mitsuke_quartet"},
+      {"label": "MITSUKE カルテット 径10ミリ", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B00DGMTGRW/?tag=ryosakaue-22", "group": "mitsuke_quartet"},
+      {"label": "ALFE アルフェ チェロエンドピン アンティーク", "shop": "Amazon", "url": "https://www.amazon.co.jp/dp/B07437NWNM/?tag=ryosakaue-22", "group": "alfe"},
+      {"label": "シングルアイ スタンダード チェロエンドピン", "shop": "楽天", "url": "https://hb.afl.rakuten.co.jp/ichiba/5587a9f2.394bb708.5587a9f3.e7969478/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-chatblanc%2Fsingle-eye08%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D", "group": "single_eye"}
+    ]
+  },
+  {
+    "slug": "cello-textbook-list",
+    "title": "チェロ教本リスト",
+    "date": "2024-10-01",
+    "category": "チェロ練習",
+    "content": "■ 曲集\n\n[[PURCHASE_LINKS:kyokushu]]\n\n■ 練習曲\n\n[[PURCHASE_LINKS:renshu]]",
+    "purchaseLinks": [
+      {
+        "label": "鈴木鎮一 チェロ指導曲集 第1巻（CD付・新版）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4113250111/?tag=ryosakaue-22",
+        "group": "kyokushu"
+      },
+      {
+        "label": "鈴木鎮一 チェロ指導曲集 第2巻（CD付）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/411325012X/?tag=ryosakaue-22",
+        "group": "kyokushu"
+      },
+      {
+        "label": "鈴木鎮一 チェロ指導曲集 第3巻（CD付）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4113250138/?tag=ryosakaue-22",
+        "group": "kyokushu"
+      },
+      {
+        "label": "鈴木鎮一 チェロ指導曲集 第4巻（CD付・新版）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4113250243/?tag=ryosakaue-22",
+        "group": "kyokushu"
+      },
+      {
+        "label": "鈴木鎮一 チェロ指導曲集 第5巻（CD付・新版）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4113250251/?tag=ryosakaue-22",
+        "group": "kyokushu"
+      },
+      {
+        "label": "サポージニコフ チェロ基礎教本",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4113240000/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "ドッツァウァー チェロ教本 第1巻",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/427647700X/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "ドッツァウァー 113の練習曲 第2巻",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4636011953/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "シュレーダー 170の基礎的な練習曲 第2巻",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4636011929/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "デュポール チェロのための練習曲",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4636011937/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "ポッパー チェロ奏法の上級教本 Op.73",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/4636035089/?tag=ryosakaue-22",
+        "group": "renshu"
+      },
+      {
+        "label": "ピアッティ 12のカプリース Op.25（無伴奏）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B0D8FC5534/?tag=ryosakaue-22",
+        "group": "renshu"
+      }
+    ]
+  },
+  {
+    "slug": "cello-rosin",
+    "title": "チェロの松脂おすすめ8選",
+    "date": "2024-11-15",
+    "category": "チェロ練習",
+    "content": "松脂（ロジン）は弓の毛に塗ることで弦との摩擦を生み出し、音を鳴らすために欠かせない消耗品です。さらさら系としっとり系があり、好みや演奏スタイルによって選ぶのがポイントです。\n\n■ 定番の松脂\n\n・Bernardel（ベルナルデル）\nさらっとした使用感で、弓の引っ掛かりが少ない。音が柔らかく出やすいため、初心者が最初の1本として選びやすい定番品です。\n\n[[PURCHASE_LINKS:bernardel]]\n\n・Guillaume（ギョーム）\n弦への食いつきがよく、音量が出やすい。しっかりした弾き心地が好みの方に。\n\n[[PURCHASE_LINKS:guillaume]]\n\n・Larsen（ラーセン）\nチェロ弦で有名なLarsenブランドの松脂。しっかりした弾き心地でありながら、樹脂アレルギーが出にくい処方のため、鼻や目のかゆみが気になる方にも選ばれています。\n\n[[PURCHASE_LINKS:larsen]]\n\n■ 高級松脂\n\n・Leatherwood Bespoke Supple（サプル）\n高級松脂。滑らかで暖かく豊潤な音色を作り出します。\n\n[[PURCHASE_LINKS:lw_supple]]\n\n・Leatherwood Bespoke Crisp（クリスプ）\n輝かしく明瞭ではっきりとした音色を作り出します。\n\n[[PURCHASE_LINKS:lw_crisp]]\n\n・Leatherwood Bespoke カスタムブレンド\nSuppleとCrispをブレンドした特注タイプ。配合比率を好みに注文できます。\n\n[[PURCHASE_LINKS:lw_blend]]\n\n・Kaplan Light（カプラン ライト）\n非常にさらさらしているタイプ。すぐに取れてしまうがフランス物の演奏には合いやすいです。\n\n[[PURCHASE_LINKS:kaplan]]\n\n・LARICA Gold（ラリカ ゴールド）\nスイスのブランド・LARICAのプレミアムライン。金の微粒子を配合したGoldシリーズで、「粘り強め」タイプは弦への食いつきが強く、しっかりとした弾き心地です。倍音が豊かで深みのある響きが特徴です。\n\n[[PURCHASE_LINKS:larica]]",
+    "purchaseLinks": [
+      {
+        "label": "Bernardel（ベルナルデル）松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B07WDNL6F9/?tag=ryosakaue-22",
+        "group": "bernardel"
+      },
+      {
+        "label": "Guillaume（ギョーム）松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B01HEGV0IS/?tag=ryosakaue-22",
+        "group": "guillaume"
+      },
+      {
+        "label": "Larsen（ラーセン）チェロ用松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B01EDV0V3W/?tag=ryosakaue-22",
+        "group": "larsen"
+      },
+      {
+        "label": "Leatherwood Bespoke Rosin Supple（サプル）チェロ用",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B07SL43CPR/?tag=ryosakaue-22",
+        "group": "lw_supple"
+      },
+      {
+        "label": "Leatherwood Bespoke Rosin Crisp（クリスプ）チェロ用",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B07NN9L4GV/?tag=ryosakaue-22",
+        "group": "lw_crisp"
+      },
+      {
+        "label": "Leatherwood Bespoke Rosin カスタムブレンド",
+        "shop": "楽天",
+        "url": "https://hb.afl.rakuten.co.jp/ichiba/558778ce.b8f5fd91.558778cf.3f18012f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fquattrogk%2F24051633%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D",
+        "group": "lw_blend"
+      },
+      {
+        "label": "D'Addario Kaplan Artcraft Rosin Light（カプラン ライト）",
+        "shop": "楽天",
+        "url": "https://hb.afl.rakuten.co.jp/ichiba/55877a96.55101873.55877a97.0bdef346/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsakuragk%2Fkacr6%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D",
+        "group": "kaplan"
+      },
+      {
+        "label": "LARICA Gold チェロ用松脂（粘り強め）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B085BFZ7WX/?tag=ryosakaue-22",
+        "group": "larica"
+      }
+    ]
+  },
+  {
+    "slug": "cello-beginners-must-buy",
+    "title": "チェロを始めたらまず揃えたい道具4選",
+    "date": "2024-09-01",
+    "category": "チェロ練習",
+    "content": "チェロを始めるとき、楽器と弓さえ用意すれば大丈夫だと思っていませんか？実はそれ以外にも、最初から揃えておくと便利な道具がいくつかあります。この記事では、チェロ初心者にまずおすすめしたいアイテムを4つ紹介します。\n\n■ 松脂\n\n弓の毛に塗ることで弦との摩擦が生まれ、音が鳴るようになります。松脂なしでは弦に弓が滑ってしまい、まともに音が出ません。\n\n松脂はさらさら系としっとり系に大別されます。弾き心地の好みや、練習する環境（気温・湿度）によっても向き不向きがあります。\n\n・Bernardel（ベルナルデル）\nさらっとした使用感で、弓の引っ掛かりが少ない。音が柔らかく出やすいため、初心者が最初の1本として選びやすい定番品です。\n\n・Guillaume（ギョーム）\n弦への食いつきがよく、音量が出やすい。しっかりした弾き心地が好みの方に。\n\n・Larsen（ラーセン）\nチェロ弦で有名なLarsenブランドの松脂。しっかりした弾き心地でありながら、樹脂アレルギーが出にくい処方のため、鼻や目のかゆみが気になる方にも選ばれています。\n\n[[PURCHASE_LINKS:rosin]]\n\n■ エンドピンストッパー\n\nチェロを演奏するとき、エンドピン（楽器の底についている棒）が床に当たります。家庭のフローリングや練習スタジオの床を傷つけないためにエンドピンストッパーが必要です。また床との滑り止めにもなるため、演奏中に楽器の位置がずれなくなります。\n\n・Dycem ブラックホール\n床に置いて使うゴム製のストッパー。安定感があり、幅広い床材に対応しています。\n\n・椅子の脚に引っ掛けるタイプ\nゴムを使っても床が滑るという方向けのタイプ。椅子の前脚に固定するため、床材を問わずエンドピンをしっかり止められます。\n\n[[PURCHASE_LINKS:endpin]]\n\n■ チューナー\n\n音を正確に合わせるために必要な道具です。スマートフォンアプリでも代用できますが、専用チューナーは反応が安定していて使いやすいです。KORG CA-2はシンプルで見やすく、長年定番として使われているモデルです。\n\n[[PURCHASE_LINKS:tuner]]\n\n■ 譜面台\n\n楽譜を置くための台です。自宅での練習に欠かせません。YAMAHA MS-260ALは軽量で折りたたみ可能、専用のソフトケース付きで持ち運びにも便利です。\n\n[[PURCHASE_LINKS:stand]]\n\n■ まとめ\n\n楽器・弓・弦以外にも、スムーズに練習を始めるために必要な道具があります。どれも練習に直結するアイテムなので、楽器と一緒に揃えておくとすぐに練習を始められます。\n\n坂上諒チェロ教室では体験レッスンを随時受け付けています。名古屋・星ヶ丘でチェロを始めたい方はお気軽にお問い合わせください。",
+    "purchaseLinks": [
+      {
+        "label": "Bernardel（ベルナルデル）松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B07WDNL6F9/?tag=ryosakaue-22",
+        "group": "rosin"
+      },
+      {
+        "label": "Guillaume（ギョーム）松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B01HEGV0IS/?tag=ryosakaue-22",
+        "group": "rosin"
+      },
+      {
+        "label": "Larsen（ラーセン）チェロ用松脂",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B01EDV0V3W/?tag=ryosakaue-22",
+        "group": "rosin"
+      },
+      {
+        "label": "Dycem ブラックホール チェロ用エンドピンストッパー",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B00CP5FKZS/?tag=ryosakaue-22",
+        "group": "endpin"
+      },
+      {
+        "label": "椅子の脚に引っ掛けるタイプ エンドピンストッパー",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B0FY5HB2F3/?tag=ryosakaue-22",
+        "group": "endpin"
+      },
+      {
+        "label": "KORG CA-2 クロマチックチューナー",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B06WLN8W8W/?tag=ryosakaue-22",
+        "group": "tuner"
+      },
+      {
+        "label": "YAMAHA MS-260AL 譜面台（ソフトケース付き）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B0BD7K51YW/?tag=ryosakaue-22",
+        "group": "stand"
+      }
+    ]
+  },
+  {
+    "slug": "cello-concert-mute",
+    "title": "チェロの演奏会用ミュート（弱音器）とは？種類と選び方を解説",
+    "date": "2024-06-15",
+    "category": "チェロ練習",
+    "content": "チェロの楽譜を見ていると、「con sordino（コン・ソルディーノ）」という指示が出てくることがあります。これは「弱音器をつけて」という意味で、演奏会用のミュート（弱音器）を使う場面です。\n\n■演奏会用ミュートの目的\n\n自宅練習で使う「練習用ミュート」は音量を大幅に下げることが目的ですが、演奏会用ミュートの目的は「音色を変えること」です。装着すると音量は少し下がりますが、それよりも音が柔らかく、ややくぐもった独特の音色になります。この音色の変化を作曲家が意図的に求めた効果であり、「senza sordino（弱音器を外して）」の指示が出るまでつけたままにします。\n\n■種類と選び方\n\n弱音器にはゴム製・金属製・木製など様々な素材のものがあります。現在もっとも普及しているのはゴム製のトルテミュートです。弦に引っ掛けて駒に装着するシンプルな構造で、価格も手頃なため、はじめて購入する方にはまずこれをおすすめします。\n\n■ウルフキラーとの干渉に注意\n\nチェロには「ウルフ音（ウルフトーン）」を抑えるためにウルフキラーを取り付けている方も多いですが、トルテ型の中でも穴が1つのタイプ（1H）であれば、ウルフキラーを装着した状態でも問題なく使えます。穴が2つのタイプだと干渉してしまうことがあるため、ウルフキラーを使っている方は1Hタイプを選ぶのが無難です。\n\n■着脱がスムーズなタイプも\n\n駒に挟み込まず弦に引っ掛けるタイプのミュートも市販されています。従来のトルテ型よりも着脱がスムーズで、曲中にすばやく付け外しする必要がある場合に特に便利です。\n\n[[PURCHASE_LINKS]]\n\n■まとめ\n\n演奏会用ミュートはひとつ持っておくと、アンサンブルや発表会などで必ず役立ちます。迷ったらまずトルテ1Hから試してみてください。\n\n坂上諒チェロ教室では、楽器や道具の選び方についてもレッスン内でご相談いただけます。名古屋・星ヶ丘でチェロを習いたい方はお気軽にお問い合わせください。",
+    "purchaseLinks": [
+      {
+        "label": "チェロミュート トルテ1H（ゴム製・ウルフキラーと干渉しない）",
+        "shop": "楽天",
+        "url": "https://hb.afl.rakuten.co.jp/ichiba/558733b3.713e3451.558733b4.1d993b39/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpositive%2Fmute_8%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D"
+      },
+      {
+        "label": "ポリーミュート チェロ用（駒に挟まない・着脱スムーズ）",
+        "shop": "楽天",
+        "url": "https://hb.afl.rakuten.co.jp/ichiba/5587ab14.e11c3e5f.5587ab15.e3721491/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fotanigakki%2F77767675656%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D"
+      }
+    ]
+  },
+  {
+    "slug": "cello-practice-mute",
+    "title": "チェロの練習用ミュート（弱音器）とは？種類・使い方・注意点を解説",
+    "date": "2024-03-10",
+    "category": "チェロ練習",
+    "content": "チェロを自宅で練習するとき、音量が気になる方は多いのではないでしょうか。マンションや集合住宅にお住まいの方から「練習したいけど音が出せない」というご相談をよくいただきます。そんなときに役立つのが「練習用ミュート」です。\n\n■ミュートには2種類ある\n\nチェロで使うミュートには、大きく分けて2種類あります。\n\n・通常の弱音器（コンサートミュート）\n音色をわずかに柔らかくするもので、演奏会のp（ピアノ）表現に使います。消音効果はほとんどありません。\n\n・練習用ミュート（ヘビーミュート）\n駒（こま）にしっかりはめ込む重めのミュートで、音量を大幅に抑えることができます。自宅練習向けです。\n\n■どれくらい音が小さくなる？\n\n練習用ミュートを使うと、通常の音量の約4〜5分の1程度に抑えられます。完全な無音にはなりませんが、夜間の練習や集合住宅でもかなり現実的な音量になります。壁の薄さや建物の構造によっては、隣室に聞こえる場合もあるため、お住まいの環境に合わせてお使いください。\n\n■とにかく金属製がおすすめ\n\nゴム製と金属製の2種類が市販されていますが、消音目的なら迷わず金属製を選んでください。重量があるぶん弦の振動をしっかり抑えてくれるため、ゴム製とは消音効果が明らかに違います。\n\nおすすめの金属製ミュートは以下の2製品です。\n\n・My Mute MM-C（金メッキ仕上げ・約260g）\nしっかりとした消音効果が得られる定番品。重量があるぶん弦の振動をしっかり抑えてくれます。\n\n・W mutes ダブルミュート / Practice Mute（艶消しシルバー）\n価格は高めですが、消音効果がしっかりある上に音色をあまり損なわない設計になっています。「音がこもった感じになるのが嫌」という方にはこちらがおすすめです。\n\n[[PURCHASE_LINKS]]\n\n■練習用ミュートを使うときの注意点\n\nミュートを装着すると弦の振動が変わるため、弓を動かしたときの感触や音の鳴り方が通常とかなり異なります。特にボウイング（弓使い）の感覚が変わりやすいため、長時間ミュートだけで練習すると、ミュートなしのときに弾きにくくなることがあります。\n\n■まとめ\n\n練習用ミュートは自宅練習の強い味方ですが、あくまで補助的に使うもの。週に一度でも防音室や練習スタジオなど、ミュートなしで弾ける環境を作れると理想的です。\n\n坂上諒チェロ教室では、自宅での練習方法や道具の使い方についても丁寧にアドバイスしています。名古屋・星ヶ丘でチェロを習いたい方、初心者・大人の方もお気軽にご相談ください。体験レッスン（30分・無料）はいつでも受け付けています。",
+    "purchaseLinks": [
+      {
+        "label": "My Mute MM-C（金メッキ仕上げ・約260g）",
+        "shop": "Amazon",
+        "url": "https://www.amazon.co.jp/dp/B001DIWKHY/?tag=ryosakaue-22"
+      },
+      {
+        "label": "Wmute Practice ダブルミュート チェロ用 シルバー",
+        "shop": "楽天",
+        "url": "https://hb.afl.rakuten.co.jp/ichiba/558717ec.ac682346.558717ed.77242f53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyaji-onlineshop%2Fsr19-5213%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+      }
+    ]
+  },
+  {
+    "slug": "cello-recital-2027-02",
+    "title": "チェロリサイタル（2027年2月13日）",
+    "date": "2026-09-29",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-フィオリーレ-2027-02.jpg",
+    "pdf": "/files/blog/recital-2027-02.pdf",
+    "content": "2027年2月13日（土）、スタジオ・フィオリーレにてチェロリサイタルを開催いたします。\n\nピアニスト佐々木杏子さんとの共演です。\n\n【プログラム】\nブルッフ：コル・ニドライ\nヴィラ＝ロボス：黒鳥の歌\nピアソラ：ル・グラン・タンゴ\nベートーヴェン：魔笛の主題による7つの変奏曲\nベートーヴェン：チェロソナタ 第3番 イ長調\n他\n\n※曲目・曲順は変更になる場合がございます。\n\n【公演詳細】\n日時：2027年2月13日（土）13:45開場 / 14:15開演\n※開演後の途中入場はできません。\n会場：スタジオ・フィオリーレ（名古屋市中村区鳥居西通1-51 アンジュパティオ中村公園801号）\nアクセス：地下鉄東山線「中村公園」駅 2番出口より西へ徒歩1分／市バス「中村公園」バス停 目の前\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子\n\nチケットのご予約は公式LINEまたはお問い合わせフォームからどうぞ。"
+  },
+  {
+    "slug": "cello-recital-2026-10",
     "title": "チェロリサイタル（2026年10月11日）",
     "date": "2026-05-04",
     "category": "コンサート情報",
-    "image": "/images/blog/recital-2026-10.jpg",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-HITOMIホール-2026-10.jpg",
     "pdf": "/files/blog/recital-2026-10.pdf",
     "content": "2026年10月11日（日）、HITOMIホールにてチェロリサイタルを開催いたします。\n\nピアニスト佐々木杏子さんとの共演です。\n\n【プログラム】\nJ.S.バッハ：無伴奏チェロ組曲 第4番\nグラズノフ：吟遊詩人の歌\nシューマン：アダージョとアレグロ\nR.シュトラウス：チェロソナタ\nマルティヌー：ロッシーニの主題による変奏曲\n\n※曲目・曲順は変更になる場合がございます。\n\n【公演詳細】\n日時：2026年10月11日（日）13:45開場 / 14:15開演\n会場：HITOMIホール（名古屋市中区葵三丁目21番19号 メニコンANNEX 5F）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子\n\nチケットのご予約は公式LINEまたはお問い合わせフォームからどうぞ。"
   },
   {
-    "slug": "チェロリサイタル-2",
+    "slug": "cello-recital-2026-05",
     "title": "チェロリサイタル（2026年5月3日）",
     "date": "2026-01-12",
     "category": "コンサート情報",
-    "image": "/images/blog/recital-2026-05.jpg",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-フィオリーレ-2026-05.jpg",
     "pdf": "/files/blog/recital-2026-05.pdf",
     "content": "2026年5月3日（日）、スタジオ・フィオリーレにてチェロリサイタルを開催いたしました。\n\n※こちらの公演はチケット完売となりました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト佐々木杏子さんとの共演でお届けしました。\n\n【プログラム】\nJ.S.バッハ：無伴奏チェロ組曲 第1番 ト長調\nシューマン：アダージョとアレグロ\nチャイコフスキー：ノクターン、メロディ\nグリーグ：チェロソナタ イ短調\n他\n\n【公演詳細】\n日時：2026年5月3日（日）13:45開場 / 14:15開演\n会場：スタジオ・フィオリーレ（名古屋市中村区鳥居西通1-51 アンジュパティオ中村公園801号）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子"
   },
   {
-    "slug": "チェロリサイタル-1",
+    "slug": "cello-recital-2025-12",
     "title": "チェロリサイタル（2025年12月13日）",
     "date": "2025-09-02",
     "category": "コンサート情報",
-    "image": "/images/blog/recital-2025-12.jpg",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-HITOMIホール-2025-12.jpg",
     "pdf": "/files/blog/recital-2025-12.pdf",
     "content": "2025年12月13日（土）、HITOMIホールにてチェロリサイタルを開催いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト佐々木杏子さんとの共演でお届けしました。\n\n【プログラム】\nハイドン：ディヴェルティメント ニ長調\nブラームス：チェロソナタ 第1番 ホ短調\nカサド：無伴奏チェロ組曲\nストラヴィンスキー：イタリア組曲\n\n【公演詳細】\n日時：2025年12月13日（土）13:45開場 / 14:15開演\n会場：HITOMIホール（名古屋市中区葵三丁目21番19号 メニコンANNEX 5F）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子"
   },
   {
-    "slug": "音楽で巡るフランスの旅",
+    "slug": "france-music-concert-2025-07",
     "title": "音楽で巡るフランスの旅",
     "date": "2025-05-23",
     "category": "コンサート情報",
-    "image": "/images/blog/france-2025-07.jpg",
+    "image": "/images/blog/名古屋-愛知-チェロ-フランス音楽コンサート-2025-07.jpg",
     "content": "2025年7月26日（土）、グランドスーシュ上社の中庭にて「音楽で巡るフランスの旅」を開催いたしました。\n\nピアニスト西村美穂さんとの共演で、フランスの音楽を特集した特別なプログラムをお届けしました。\n\n【プログラム】\nショパン：序奏と華麗なるポロネーズ\nフォーレ：シシリエンヌ / 夢のあとに / 蝶々\nサン＝サーンス：チェロソナタ 第1番 ハ短調\n\n【公演詳細】\n日時：2025年7月26日（土）17:30開場 / 18:00開演\n会場：グランドスーシュ上社（名古屋市名東区上社3丁目1703 1F 中庭）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 西村美穂"
+  },
+  {
+    "slug": "piano-trio-concert-2025-03",
+    "title": "野田知美ピアノコンサート〜ピアノトリオの魅力〜",
+    "date": "2025-03-16",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロ-ピアノトリオ-コンサート-2025-03.jpg",
+    "content": "2025年3月16日（日）、ヤマハグランドピアノサロン名古屋にて「野田知美ピアノコンサート〜ピアノトリオの魅力〜」に出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト野田知美さん、ヴァイオリニスト大村芽衣さんとのピアノトリオで、メンデルスゾーンのピアノ三重奏曲第2番を演奏いたしました。温かみのあるサロン空間での親密なコンサートとなりました。\n\n【プログラム】\nF.メンデルスゾーン：ピアノ三重奏曲 第2番 ハ短調 Op.66\n他、ピアノソロ\n\n【公演詳細】\n日時：2025年3月16日（日）13:00開演（12:30開場）\n会場：ヤマハグランドピアノサロン名古屋（名古屋市中区錦1-18-28 ヤマハ名古屋ビル4F）\n入場料：一般 1,000円 / 会員・学生 500円\n出演：野田知美（Pf）/ 大村芽衣（Vn）/ 坂上諒（Vc）"
+  },
+  {
+    "slug": "cello-recital-2024-11",
+    "title": "チェロリサイタル（2024年11月2日）",
+    "date": "2024-11-02",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-フランク-フィオリーレ-2024-11.jpg",
+    "content": "2024年11月2日（土）、スタジオ・フィオリーレにてチェロリサイタルを開催いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト佐々木杏子さんとの共演で、バッハの無伴奏組曲からフランクのソナタまで幅広いプログラムをお届けしました。フランクのヴァイオリンソナタのチェロ版は、チェロならではの深みある音色で作品の魅力を引き出した演奏となりました。\n\n【プログラム】\nJ.S.バッハ：無伴奏チェロ組曲 第3番 ハ長調\nロッシーニ：一滴の涙\nサン=サーンス：チェロソナタ 第1番 ハ短調\nフランク：ヴァイオリンソナタ イ長調（チェロ版）\n\n【公演詳細】\n日時：2024年11月2日（土）14:15開演（13:45開場）\n会場：スタジオ・フィオリーレ（名古屋市中村区鳥居西通1-51 アンジュパティオ中村公園801号）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子"
+  },
+  {
+    "slug": "piano-quartet-concert-2024-02",
+    "title": "ピアノ四重奏コンサート〜ブラームスとその弟子イェンナー〜",
+    "date": "2024-02-12",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロ-ピアノ四重奏-ブラームス-2024-02.jpg",
+    "content": "2024年2月12日（月）、HITOMIホールにてピアノ四重奏コンサート〜ブラームスとその弟子イェンナー〜に出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\n福田結衣（ピアノ）、西尾結花（ヴァイオリン）、田中文恵（ヴィオラ）とのカルテットで、ブラームスとその高弟グスタフ・イェンナーの作品をお届けしました。師弟の音楽的絆を感じさせる、知られざる名曲との出会いとなりました。\n\n【プログラム】\nグスタフ・イェンナー：ピアノ四重奏曲 ヘ長調\nヨハネス・ブラームス：ピアノ四重奏曲 第1番 ト短調\n\n【公演詳細】\n日時：2024年2月12日（月）14:00開演（13:30開場）\n会場：HITOMIホール（名古屋市中区葵三丁目21番19号 メニコンANNEX 5F）\nチケット：全自由席 3,000円\n出演：福田結衣（Pf）/ 西尾結花（Vn）/ 田中文恵（Va）/ 坂上諒（Vc）"
+  },
+  {
+    "slug": "cello-recital-2024-01",
+    "title": "チェロリサイタル（2024年1月21日）",
+    "date": "2024-01-21",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-ラフマニノフ-2024-01.jpg",
+    "content": "2024年1月21日（日）、ミュージックホール奏にてチェロリサイタルを開催いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト佐々木杏子さんとの共演で、フランス・ロシア音楽を特集したプログラムをお届けしました。ラフマニノフのチェロソナタは約40分に及ぶ大作で、チェロとピアノが渾然一体となった濃密な音楽世界を表現しました。\n\n【プログラム】\nブレヴァール：チェロソナタ ト長調\nドビュッシー：チェロソナタ ニ短調\nレスピーギ：アダージョと変奏\nラフマニノフ：チェロソナタ ト短調\n\n【公演詳細】\n日時：2024年1月21日（日）14:15開演（13:45開場）\n会場：ミュージックホール奏（名古屋市名東区上社3-1903 加藤ビル2F）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子"
+  },
+  {
+    "slug": "string-octet-concert-2023",
+    "title": "String Octet Concert（2023年3月23日）",
+    "date": "2023-03-23",
+    "category": "コンサート情報",
+    "image": "/images/blog/愛知-岡崎-チェロ-弦楽八重奏-コンサート-2023-03.jpg",
+    "content": "2023年3月23日（木）、岡崎シビックセンター コロネットにてString Octet Concertに出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\n名古屋フィルハーモニー交響楽団コンサートマスター・日比浩一氏を迎えた弦楽八重奏の演奏会です。メンデルスゾーンの弦楽八重奏曲は作曲家わずか16歳の天才的な傑作。弦楽器8本が重なり合う豊かなハーモニーをお楽しみいただきました。\n\n【プログラム】\nF.メンデルスゾーン：弦楽四重奏曲 第2番 イ短調\nショスタコーヴィチ：弦楽八重奏のための2つの小品 作品11\nF.メンデルスゾーン：弦楽八重奏曲 変ホ長調 作品20\n\n【公演詳細】\n日時：2023年3月23日（木）19:00開演（18:30開場）\n会場：岡崎シビックセンター コロネット\nチケット：大人 3,000円 / 学生 1,500円\n出演（チェロ）：坂上諒、木村珠海"
+  },
+  {
+    "slug": "string-quartet-concert-2023-03",
+    "title": "弦楽四重奏コンサート（2023年3月5日）",
+    "date": "2023-03-05",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロ-弦楽四重奏-コンサート-2023-03.jpg",
+    "content": "2023年3月5日（日）、HITOMIホールにて弦楽四重奏コンサートに出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\n白鳥ユウ・尾髙詩音里（ヴァイオリン）、小泉理子（ヴィオラ）とのカルテットで、モーツァルトとベートーヴェンの傑作弦楽四重奏曲を演奏いたしました。「不協和音」の愛称で親しまれるモーツァルトの作品から、ベートーヴェンのラズモフスキー第3番まで、弦楽四重奏の醍醐味を存分にお届けしました。\n\n【プログラム】\nモーツァルト：弦楽四重奏曲 第19番 ハ長調 K.465「不協和音」\nベートーヴェン：弦楽四重奏曲 第9番 ハ長調 作品59-3「ラズモフスキー第3番」\n\n【公演詳細】\n日時：2023年3月5日（日）14:00開演（13:30開場）\n会場：HITOMIホール（名古屋市中区葵三丁目21番19号 メニコンANNEX 5F）\nチケット：前売 3,000円 / 当日 3,500円 / 学生 2,000円\n出演：白鳥ユウ・尾髙詩音里（Vn）/ 小泉理子（Va）/ 坂上諒（Vc）"
+  },
+  {
+    "slug": "cello-recital-2022-08",
+    "title": "チェロリサイタル（2022年8月28日）",
+    "date": "2022-08-28",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロリサイタル-坂上諒-先生-2022-08.jpg",
+    "content": "2022年8月28日（日）、名古屋・ミュージックホール奏にてチェロ・リサイタルを開催いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\nピアニスト佐々木杏子さんとの共演で、バッハの無伴奏組曲からブラームスのソナタまで、ドイツ音楽を軸とした本格的なプログラムをお届けしました。リゲティの無伴奏ソナタは現代音楽の語法と深い表現が融合した作品で、チェロの新たな可能性を探る演奏となりました。\n\n【プログラム】\nボッケリーニ：チェロと通奏低音のためのソナタ イ長調 G.4\nJ.S.バッハ：無伴奏チェロ組曲 第6番 ニ長調 BWV1012\nリゲティ：無伴奏チェロソナタ\nブラームス：チェロとピアノのためのソナタ 第2番 ヘ長調 Op.99\n\n【公演詳細】\n日時：2022年8月28日（日）18:15開演（17:45開場）\n会場：ミュージックホール奏（名古屋市名東区上社3-1903 加藤ビル2F）\nチケット：全自由席 3,000円\n出演：チェロ 坂上諒 / ピアノ 佐々木杏子"
+  },
+  {
+    "slug": "nagoya-phil-2022",
+    "title": "名古屋フィル共演：サン=サーンス チェロ協奏曲",
+    "date": "2022-02-09",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロ-名フィル協奏曲-サンサーンス-2022-02.jpg",
+    "content": "2022年2月9日（水）、三井住友海上しらかわホールにて、新進演奏家育成プロジェクト「オーケストラ・シリーズ 第62回名古屋公演」に出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\n名古屋フィルハーモニー交響楽団（指揮：大井剛史）との共演で、サン=サーンスのチェロ協奏曲第1番を演奏いたしました。名古屋を代表するオーケストラとの共演という大舞台で、情熱的なフランス音楽の世界をお届けしました。\n\n【プログラム】\nボッテジーニ：グランド・アレグロ（メンデルスゾーン風協奏曲）\n　古宮 幹康（コントラバス）\nサン=サーンス：チェロ協奏曲 第1番 イ短調 作品33\n　坂上 諒（チェロ）\nバウエル：ホルン協奏曲\n　松原 秀人（ホルン）\nセジュルネ：マリンバ協奏曲\n　島岡 里梨香（マリンバ）\nリスト：ピアノ協奏曲 第2番 イ長調\n　村山 響（ピアノ）\n\n【公演詳細】\n日時：2022年2月9日（水）18:30開演（17:30開場）\n会場：三井住友海上しらかわホール（名古屋市中区栄2-9-15）\nチケット：全席指定 2,500円\n指揮：大井 剛史\n管弦楽：名古屋フィルハーモニー交響楽団\n主催：文化庁・公益財団法人日本演奏連盟・公益財団法人名古屋フィルハーモニー交響楽団"
+  },
+  {
+    "slug": "lirio-mini-concert-2021",
+    "title": "リリオ ミニ・コンサート Vol.5「冬のトリオ」",
+    "date": "2021-12-10",
+    "category": "コンサート情報",
+    "image": "/images/blog/名古屋-愛知-チェロ-リリオミニコンサート-2021-12.jpg",
+    "content": "2021年12月10日（金）、知立・リリオ・コンサートホールにて「リリオ ミニ・コンサート Vol.5 冬のトリオ〜師走に聴きたい、名曲の数々〜」に出演いたしました。ご来場いただいた皆様、誠にありがとうございました。\n\n金澤みなつ（ピアノ）、新野智子（フルート）とのトリオで、クリスマスシーズンにふさわしいプログラムをお届けしました。バッハの無伴奏チェロ組曲からクリスマス・キャロルまで、冬の雰囲気溢れる温かなひとときとなりました。\n\n【プログラム】\nエルガー：愛のあいさつ\nモーツァルト：ロンド ニ長調 K.Anh.184\nショパン：華麗なる大円舞曲\nシューベルト：アヴェ・マリア\nJ.S.バッハ：無伴奏チェロ組曲より\nクリスマス・キャロル・メドレー 他\n\n【公演詳細】\n日時：2021年12月10日（金）11:30開演（11:00開場）\n会場：リリオ・コンサートホール（愛知県知立市）\n入場料：500円\n出演：金澤みなつ（Pf）/ 新野智子（Fl）/ 坂上諒（Vc）"
   }
 ]

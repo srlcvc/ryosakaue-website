@@ -2,13 +2,44 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'プロフィール',
-  description: '東京藝術大学別科卒業後、イタリア留学。コンクール入賞多数。名古屋を拠点にソロ・室内楽・オーケストラで活動するチェリスト坂上諒のプロフィール。',
+  title: '坂上諒 | チェリスト・プロフィール',
+  description: '坂上諒（チェリスト）のプロフィール。東京藝術大学別科卒業後、イタリア留学。ベーテン音楽コンクール第1位など入賞多数。名古屋・愛知県を拠点にソロ・室内楽・オーケストラで活動。',
+  openGraph: {
+    title: '坂上諒 | チェリスト・プロフィール',
+    description: '坂上諒（チェリスト）のプロフィール。東京藝術大学別科卒業後、イタリア留学。名古屋を拠点に活動。',
+    images: [
+      {
+        url: 'https://www.ryosakaue.com/images/sakaue-ryo-cellist-nagoya-2.jpg',
+        width: 1280,
+        height: 1793,
+        alt: '坂上諒 チェリスト',
+      },
+    ],
+  },
 };
 
 export default function ProfilePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: '坂上諒',
+            alternateName: 'Ryo Sakaue',
+            jobTitle: 'チェリスト',
+            description: '名古屋を拠点に活動するチェリスト。東京藝術大学別科卒業後、イタリア サンタチェチーリア国立アカデミアに留学。ベーテン音楽コンクール第1位、日本クラシック音楽コンクール第2位（最高位）など入賞多数。',
+            url: 'https://www.ryosakaue.com/profile',
+            image: 'https://www.ryosakaue.com/images/sakaue-ryo-cellist-nagoya-2.jpg',
+            sameAs: [
+              'https://www.youtube.com/@ryosakauecello7257',
+              'https://www.instagram.com/ryosakau/',
+            ],
+          }),
+        }}
+      />
       <section className="bg-warm-text text-cream py-20 text-center">
         <p className="section-sub text-cream/60">Profile</p>
         <h1 className="font-serif text-4xl md:text-5xl tracking-wide">プロフィール</h1>
@@ -20,6 +51,7 @@ export default function ProfilePage() {
             src="/images/sakaue-ryo-cellist-nagoya-2.jpg"
             alt="坂上諒 チェリスト 名古屋 愛知県"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover object-top"
           />
         </div>
@@ -63,12 +95,15 @@ export default function ProfilePage() {
       <section className="bg-white py-12">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-6">
-            {[1, 3].map((n) => (
+            {[
+              { n: 1, alt: 'チェリスト坂上諒 演奏 名古屋' },
+              { n: 3, alt: '坂上諒 チェロ演奏 愛知県' },
+            ].map(({ n, alt }) => (
               /* eslint-disable-next-line @next/next/no-img-element */
               <img
                 key={n}
                 src={`/images/sakaue-ryo-cellist-nagoya-${n}.jpg`}
-                alt={`坂上諒 チェリスト 名古屋 ${n}`}
+                alt={alt}
                 className="w-full h-auto"
               />
             ))}

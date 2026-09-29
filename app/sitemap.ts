@@ -3,7 +3,7 @@ import { getAllPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.ryosakaue.com';
-  const staticPages = ['', '/lesson', '/profile', '/music', '/concert', '/blog', '/faq', '/contact'].map((path) => ({
+  const staticPages = ['', '/lesson', '/profile', '/music', '/concert', '/blog', '/contact'].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,

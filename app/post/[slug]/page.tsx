@@ -62,9 +62,33 @@ export default function PostPage({ params }: Props) {
 
       <article className="max-w-2xl mx-auto px-4 py-12">
         <div className="prose prose-sm max-w-none text-muted leading-relaxed">
-          {post.content.split('\n\n').map((para, i) => (
-            <p key={i} className="mb-4 whitespace-pre-line">{para}</p>
-          ))}
+          {post.content.split('\n\n').map((para, i) => {
+            const match = para.match(/^\[\[PURCHASE_LINKS(?::([^\]]+))?\]\]$/);
+            if (match && post.purchaseLinks && post.purchaseLinks.length > 0) {
+              const group = match[1];
+              const links = group
+                ? post.purchaseLinks.filter(l => l.group === group)
+                : post.purchaseLinks.filter(l => !l.group);
+              if (links.length === 0) return null;
+              return (
+                <div key={i} className="my-6 border border-warm-border p-6 not-prose">
+                  <p className="text-xs font-bold text-warm-text mb-4 tracking-widest">購入リンク</p>
+                  <ul className="space-y-3">
+                    {links.map((link) => (
+                      <li key={link.url} className="flex items-start gap-3 text-sm">
+                        <span className="shrink-0 border border-brown text-brown text-xs px-2 py-0.5 mt-0.5">{link.shop}</span>
+                        <a href={link.url} target="_blank" rel="noopener noreferrer"
+                          className="text-brown border-b border-brown hover:text-brown-dark transition-colors leading-snug">
+                          {link.label} →
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            }
+            return <p key={i} className="mb-4 whitespace-pre-line">{para}</p>;
+          })}
         </div>
 
         <div className="mt-12 pt-8 border-t border-warm-border flex gap-4">

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'お問い合わせ',
-  description: '坂上諒チェロ教室へのお問い合わせ・チケット予約フォーム。LINEでも受け付けています。',
+  description: '坂上諒チェロ教室へのお問い合わせ・体験レッスンお申込み・演奏会チケット予約フォーム。名古屋・愛知県からもお気軽にどうぞ。LINEでも受け付けています。',
 };
 
 export default function ContactPage() {
