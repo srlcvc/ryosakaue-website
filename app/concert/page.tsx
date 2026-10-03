@@ -36,7 +36,7 @@ const upcoming = [
     isoDate: '2027-10-10',
     date: '2027年10月10日（日）',
     title: '坂上諒・水野貴文 デュオリサイタル',
-    venue: '決まり次第お知らせします',
+    venue: 'HITOMIホール（名古屋）',
     time: '開演 14:00（開場 13:30）',
     ticket: '全自由席 3,000円',
     program: '決まり次第お知らせします',
@@ -171,6 +171,38 @@ export default function ConcertPage() {
               url: 'https://www.ryosakaue.com/contact',
             },
             performer: { '@type': 'Person', name: '坂上諒' },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Event',
+            name: '坂上諒・水野貴文 デュオリサイタル',
+            description: '2027年10月10日（日）、HITOMIホールにて坂上諒（チェロ）・水野貴文（ピアノ）によるデュオリサイタルを開催します。',
+            startDate: '2027-10-10T14:00:00+09:00',
+            endDate: '2027-10-10T16:30:00+09:00',
+            eventStatus: 'https://schema.org/EventScheduled',
+            eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+            url: 'https://www.ryosakaue.com/concert',
+            location: {
+              '@type': 'Place',
+              name: 'HITOMIホール',
+              address: { '@type': 'PostalAddress', streetAddress: '葵三丁目21番19号 メニコンANNEX 5F', addressLocality: '名古屋市中区', addressRegion: '愛知県', addressCountry: 'JP' },
+            },
+            offers: {
+              '@type': 'Offer',
+              price: '3000',
+              priceCurrency: 'JPY',
+              availability: 'https://schema.org/InStock',
+              url: 'https://www.ryosakaue.com/contact',
+            },
+            performer: [
+              { '@type': 'Person', name: '坂上諒' },
+              { '@type': 'Person', name: '水野貴文' },
+            ],
           }),
         }}
       />
