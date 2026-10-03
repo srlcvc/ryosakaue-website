@@ -32,6 +32,17 @@ const upcoming = [
     pianist: 'ピアノ：佐々木杏子',
     pdf: '/files/blog/recital-2027-02.pdf',
   },
+  {
+    isoDate: '2027-10-10',
+    date: '2027年10月10日（日）',
+    title: '坂上諒・水野貴文 デュオリサイタル',
+    venue: '決まり次第お知らせします',
+    time: '開演 14:00（開場 13:30）',
+    ticket: '3,000円',
+    program: '決まり次第お知らせします',
+    pianist: 'ピアノ：水野貴文',
+    pdf: '',
+  },
 ];
 
 export default function ConcertPage() {
@@ -49,7 +60,7 @@ export default function ConcertPage() {
         {upcoming.map((c) => {
           const isPast = new Date(c.isoDate) < new Date();
           return (
-            <div key={c.title} className="border border-warm-border p-8 mb-8">
+            <div key={c.isoDate} className="border border-warm-border p-8 mb-8">
               <p className="text-sm text-brown font-bold mb-2">{c.date}</p>
               <h3 className="font-serif text-2xl mb-4">{c.title}</h3>
               <dl className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-muted mb-6">
