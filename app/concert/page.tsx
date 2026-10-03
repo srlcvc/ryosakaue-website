@@ -15,6 +15,7 @@ const upcoming = [
     date: '2026年10月11日（日）',
     title: '坂上諒 チェロリサイタル',
     venue: 'HITOMIホール（名古屋）',
+    map: 'HITOMIホール 名古屋市中区葵三丁目21番19号 メニコンANNEX 5F',
     time: '開演 14:15（開場 13:45）',
     ticket: '全自由席 3,000円',
     program: 'バッハ：無伴奏チェロ組曲、他',
@@ -26,6 +27,7 @@ const upcoming = [
     date: '2027年2月13日（土）',
     title: '坂上諒 チェロリサイタル',
     venue: 'スタジオ・フィオリーレ',
+    map: 'スタジオ・フィオリーレ 名古屋市中村区鳥居西通1-51 アンジュパティオ中村公園801号',
     time: '開演 14:15（開場 13:45）',
     ticket: '全自由席 3,000円',
     program: 'ブルッフ：コル・ニドライ、ヴィラ＝ロボス：黒鳥の歌、ピアソラ：ル・グラン・タンゴ、ベートーヴェン：魔笛の主題による7つの変奏曲、ベートーヴェン：チェロソナタ第3番 イ長調、他',
@@ -37,6 +39,7 @@ const upcoming = [
     date: '2027年10月10日（日）',
     title: '坂上諒・水野貴文 デュオリサイタル',
     venue: 'HITOMIホール（名古屋）',
+    map: 'HITOMIホール 名古屋市中区葵三丁目21番19号 メニコンANNEX 5F',
     time: '開演 14:00（開場 13:30）',
     ticket: '全自由席 3,000円',
     program: '決まり次第お知らせします',
@@ -64,7 +67,11 @@ export default function ConcertPage() {
               <p className="text-sm text-brown font-bold mb-2">{c.date}</p>
               <h3 className="font-serif text-2xl mb-4">{c.title}</h3>
               <dl className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-muted mb-6">
-                <div><dt className="inline font-bold text-warm-text">会場：</dt><dd className="inline">{c.venue}</dd></div>
+                <div><dt className="inline font-bold text-warm-text">会場：</dt><dd className="inline">{c.map ? (
+                  <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.map)}`} target="_blank" rel="noopener noreferrer" className="text-brown border-b border-brown hover:text-brown-dark transition-colors">
+                    {c.venue}
+                  </a>
+                ) : c.venue}</dd></div>
                 <div><dt className="inline font-bold text-warm-text">開演：</dt><dd className="inline">{c.time}</dd></div>
                 <div><dt className="inline font-bold text-warm-text">料金：</dt><dd className="inline">{c.ticket}</dd></div>
                 <div><dt className="inline font-bold text-warm-text">プログラム：</dt><dd className="inline">{c.program}</dd></div>
