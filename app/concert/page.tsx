@@ -36,6 +36,7 @@ const upcoming = [
   },
   {
     isoDate: '2027-10-10',
+    hidden: true, // 公開するときは false にする
     date: '2027年10月10日（日）',
     title: '坂上諒・水野貴文 デュオリサイタル',
     venue: 'HITOMIホール（名古屋）',
@@ -60,7 +61,7 @@ export default function ConcertPage() {
       <section className="max-w-5xl mx-auto px-4 py-16">
         <p className="section-sub">Upcoming</p>
         <h2 className="section-title mb-12">今後のコンサート</h2>
-        {upcoming.map((c) => {
+        {upcoming.filter((c) => !('hidden' in c && c.hidden)).map((c) => {
           const isPast = new Date(c.isoDate) < new Date();
           return (
             <div key={c.isoDate} className="border border-warm-border p-8 mb-8">
@@ -181,6 +182,7 @@ export default function ConcertPage() {
           }),
         }}
       />
+      {!upcoming.some((c) => c.isoDate === '2027-10-10' && 'hidden' in c && c.hidden) && (
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -213,6 +215,7 @@ export default function ConcertPage() {
           }),
         }}
       />
+      )}
     </>
   );
 }
