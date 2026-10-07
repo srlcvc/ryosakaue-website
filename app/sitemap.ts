@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === '' ? 1 : 0.8,
   }));
 
-  const blogPages = getAllPosts().map((post) => ({
+  const blogPages = getAllPosts().filter((post) => !('noindex' in post && post.noindex)).map((post) => ({
     url: `${base}/post/${encodeURIComponent(post.slug)}`,
     lastModified: new Date(post.date),
     changeFrequency: 'yearly' as const,

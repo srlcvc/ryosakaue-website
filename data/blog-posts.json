@@ -1,6 +1,7 @@
 [
   {
     "slug": "cello-wolf-killer",
+    "noindex": true,
     "title": "チェロのウルフキラーおすすめ4選｜ウルフ音の原因と対策",
     "date": "2025-01-15",
     "category": "チェロ練習",
@@ -14,6 +15,7 @@
   },
   {
     "slug": "cello-endpin",
+    "noindex": true,
     "title": "チェロのエンドピンおすすめ6選｜素材で変わる音色",
     "date": "2025-02-01",
     "category": "チェロ練習",
@@ -35,6 +37,7 @@
   },
   {
     "slug": "cello-textbook-list",
+    "noindex": true,
     "title": "チェロ教本リスト",
     "date": "2024-10-01",
     "category": "チェロ練習",
@@ -173,6 +176,7 @@
   },
   {
     "slug": "cello-beginners-must-buy",
+    "noindex": true,
     "title": "チェロを始めたらまず揃えたい道具4選",
     "date": "2024-09-01",
     "category": "チェロ練習",
@@ -224,6 +228,7 @@
   },
   {
     "slug": "cello-concert-mute",
+    "noindex": true,
     "title": "チェロの演奏会用ミュート（弱音器）とは？種類と選び方を解説",
     "date": "2024-06-15",
     "category": "チェロ練習",
@@ -243,6 +248,7 @@
   },
   {
     "slug": "cello-practice-mute",
+    "noindex": true,
     "title": "チェロの練習用ミュート（弱音器）とは？種類・使い方・注意点を解説",
     "date": "2024-03-10",
     "category": "チェロ練習",

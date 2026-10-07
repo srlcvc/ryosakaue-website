@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.content.slice(0, 120),
+    ...('noindex' in post && post.noindex ? { robots: { index: false, follow: true } } : {}),
   };
 }
 

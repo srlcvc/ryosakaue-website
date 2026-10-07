@@ -15,6 +15,7 @@ export interface BlogPost {
   content: string;
   image?: string;
   pdf?: string;
+  noindex?: boolean; // true にすると検索エンジンに表示しない
   purchaseLinks?: PurchaseLink[];
 }
 
