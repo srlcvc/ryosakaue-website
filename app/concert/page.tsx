@@ -36,7 +36,7 @@ const upcoming = [
   },
   {
     isoDate: '2027-10-10',
-    hidden: true, // 公開するときは false にする
+    hidden: false, // 非表示にするときは true にする
     date: '2027年10月10日（日）',
     title: '坂上諒・水野貴文 デュオリサイタル',
     venue: 'HITOMIホール（名古屋）',
