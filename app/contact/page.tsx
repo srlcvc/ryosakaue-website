@@ -86,7 +86,7 @@ export default function ContactPage() {
               <label className="block text-sm font-bold text-warm-text mb-1">
                 公演名 <span className="text-brown text-xs">必須</span>
               </label>
-              <input type="text" name="concert" required placeholder="例）坂上諒 チェロリサイタル（2026年10月11日）"
+              <input type="text" name="concert" required placeholder="例）坂上諒 チェロリサイタル（2027年2月13日）"
                 className="w-full border border-warm-border px-4 py-3 text-sm focus:outline-none focus:border-brown bg-white" />
             </div>
             <div>

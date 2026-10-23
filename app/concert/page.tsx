@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 const upcoming = [
   {
     isoDate: '2026-10-11',
+    hidden: true, // 終演したので非表示（情報は残す）
     date: '2026年10月11日（日）',
     title: '坂上諒 チェロリサイタル',
     venue: 'HITOMIホール（名古屋）',
@@ -121,37 +122,6 @@ export default function ConcertPage() {
       </section>
 
       {/* Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Event',
-            name: '坂上諒 チェロリサイタル',
-            description: '2026年10月11日（日）、HITOMIホールにてチェロリサイタルを開催します。ピアノ：佐々木杏子。バッハ：無伴奏チェロ組曲ほか。',
-            startDate: '2026-10-11T14:15:00+09:00',
-            endDate: '2026-10-11T16:45:00+09:00',
-            eventStatus: 'https://schema.org/EventScheduled',
-            eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-            image: 'https://www.ryosakaue.com/images/blog/名古屋-愛知-チェロリサイタル-HITOMIホール-2026-10.jpg',
-            url: 'https://www.ryosakaue.com/concert',
-            location: {
-              '@type': 'Place',
-              name: 'HITOMIホール',
-              address: { '@type': 'PostalAddress', addressLocality: '名古屋市', addressRegion: '愛知県', addressCountry: 'JP' },
-            },
-            offers: {
-              '@type': 'Offer',
-              price: '3000',
-              priceCurrency: 'JPY',
-              availability: 'https://schema.org/InStock',
-              url: 'https://www.ryosakaue.com/contact',
-              validFrom: '2026-05-04',
-            },
-            performer: { '@type': 'Person', name: '坂上諒' },
-          }),
-        }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
